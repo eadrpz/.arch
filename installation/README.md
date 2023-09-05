@@ -51,7 +51,7 @@ cd Documents
 git clone https://github.com/pzeadrian/.files
 cd .files/scripts
 ./fonts.sh
-./configfiles.sh
+./config.sh
 ```
 
 

@@ -1,0 +1,125 @@
+configuration {
+    location:                       0;
+}
+
+@import "font"
+@import "colors.rasi"
+
+window {
+    background-color:               @BG;
+    text-color:                     @FG;
+    border:                         1px;
+    border-color:                   @BDR;
+    border-radius:                  10px;
+    width:                          35%;
+    anchor:                         center;
+    x-offset:                       0;
+    y-offset:                       10;
+}
+
+prompt {
+    enabled: 			            false;
+    padding: 			            10px;
+    background-color: 		        @BG;
+    text-color: 		            @IMG;
+    margin:                         0px;
+}
+
+inputbar {
+    background-color:               @BG;
+}
+
+entry {
+    background-color:               @BG;
+    text-color:                     @FGB;
+    expand:                         true;
+    horizontal-align:               0;
+    blink:                          true;
+    placeholder:                    "Ejecutar un comando";
+    border:                  		0px;
+    border-color:                  	@BDR;
+    border-radius:                  10px;
+    padding:                        10px 10px 10px 10px;
+    margin:                         0px 0px 0px 10px;
+    position:                       center;
+    font:                           @bold;
+}
+
+case-indicator {
+    background-color:               @BG;
+    text-color:                     @FG;
+    spacing:                        0;
+}
+
+listview {
+    background-color:               @BG;
+    columns:                        2;
+    lines:							2;
+    spacing:                        5px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @BG;
+    children:                       [ inputbar, listview ];
+    spacing:                       	15px;
+    padding:                        10px;
+}
+
+element {
+    background-color:               @BG;
+    text-color:                     @FG;
+    orientation:                    horizontal;
+    border-radius:                  10px;
+    padding:                        10px 10px 10px 10px;
+}
+
+element-icon {
+    background-color: 				inherit;
+    text-color:       				inherit;
+    size:                           0px;
+    border:                         0px;
+}
+
+element-text {
+    background-color: 				inherit;
+    text-color:       				inherit;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0.5;
+    margin:                         5px 5px 5px 5px;
+    font:                           @reg;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @UGT;
+    text-color:                     @FG;
+    border-radius:                  10px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @BGA;
+    text-color:                     @FG;
+}
+
+element selected {
+    background-color:               @BGA;
+    text-color:                     @SEL;
+    border:                  		0px 0px 0px 0px;
+    border-radius:                  10px;
+    border-color:                  	@BDR;
+}
+
+element selected.urgent {
+    background-color:               @UGT;
+    text-color:                     @FG;
+}
+
+element selected.active {
+    background-color:               @BGA;
+    color:                          @FG;
+}

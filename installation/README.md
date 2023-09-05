@@ -44,14 +44,20 @@ sudo systemctl enable bluetooth
     sudo ln -s /usr/bin/rofi /usr/bin/dmenu
     ```
 
-7. Reboot
-8. Clone my repo [.files](https://github.com/pzeadrian/.files) and run some basic scripts
+7. Reboot.
+8. Clone my repo [.files](https://github.com/pzeadrian/.files) and run some basic scripts.
 ```bash
 cd Documents
 git clone https://github.com/pzeadrian/.files
 cd .files/scripts
 ./fonts.sh
 ./config.sh
+```
+
+9. Add some variables to /etc/environment.
+```bash
+QT_STYLE_OVERRIDE=kvantum
+MOZ_ENABLE_WAYLAND=1
 ```
 
 

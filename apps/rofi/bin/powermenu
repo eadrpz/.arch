@@ -28,7 +28,7 @@ else
 		reboot=""
 		suspend="鈴"
 		logout=""
-		lock=""
+		lock=""
 
 
 	else
@@ -42,7 +42,7 @@ else
 		reboot=""
 		suspend="鈴"
 		logout=""
-		lock=""
+		lock=""
 	fi
 	ddir="$HOME/.config/rofi/config"
 fi

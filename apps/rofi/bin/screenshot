@@ -17,9 +17,9 @@ if [[ "$layout" == "TRUE" ]]; then
 	window=" "
 	area=" "
 else
-	screen="   Captura Completa"
-	window="   Capturar Ventana"
-	area="   Captura Rectangular"
+	screen="   Full-screen mode"
+	window="   Window mode"
+	area="   Rectangular mode"
 fi
 
 # take shots

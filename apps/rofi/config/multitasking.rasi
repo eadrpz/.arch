@@ -21,7 +21,7 @@ window {
 
 textbox-prompt-colon {
     expand: 			            false;
-    str: 			                "Ventanas Abiertas";
+    str: 			                "Tasks";
     font:                           @bold-big;
     background-color:               @BG;
     text-color:                     @FG;

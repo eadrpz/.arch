@@ -35,7 +35,7 @@ entry {
     placeholder-color:              @FGB;
     expand:                         true;
     horizontal-align:               0;
-    placeholder:                    "Buscar aplicaciones";
+    placeholder:                    "Search Apps";
     blink:                          true;
     border:                  	    0px 0px 0px 0px;
     border-color:                   @BDR;

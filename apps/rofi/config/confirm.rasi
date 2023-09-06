@@ -28,7 +28,7 @@ window {
 
 textbox-prompt-colon {
     expand: 			            false;
-    str: 			                "¿Estás seguro?";
+    str: 			                "Are you sure?";
     font:                           @bold;
     background-color:               @BG;
     text-color:                     @FG;

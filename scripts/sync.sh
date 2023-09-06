@@ -6,6 +6,7 @@ if [ -d "$HOME/Documents/" ]; then
     cd $HOME/Documents/.files/
     git pull
     cd
+    rm -r $HOME/Documents/.files/apps/*
     # 
     # Bash
     cp -f $HOME/.bashrc $HOME/Documents/.files/apps/
@@ -43,6 +44,7 @@ elif [ -d "$HOME/Documentos/" ]; then
     cd $HOME/Documentos/.files/
     git pull
     cd
+    rm -r $HOME/Documentos/.files/apps/*
     # 
     # Bash
     cp -f $HOME/.bashrc $HOME/Documentos/.files/apps/

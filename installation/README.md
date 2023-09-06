@@ -4,12 +4,12 @@ After you successfully installed Arch:
 1. Install some basic packages.
 ```bash
 sudo pacman -S fish dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
-wayland xorg-xwayland wl-clipboard pipewire pipewire-alsa pipewire-pulse 
+wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse 
 pipewire-jack wireplumber waybar alacritty git pcmanfm file-roller neovim 
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv 
 grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine brightnessctl polkit-gnome xorg-xhost
-firefox udisks2
+firefox udisks2 swaylock swayidle
 ```
 
 2. Change the shell to /bin/fish.

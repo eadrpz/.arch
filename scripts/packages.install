@@ -31,7 +31,7 @@ read -p "en or es?: " lang
     esac
 
 cd
-paru -S rofi-lbonn-wayland-git
+paru -S rofi-lbonn-wayland-git --noconfirm
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
 sudo systemctl enable bluetooth

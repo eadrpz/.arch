@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+echo "Let's install the packages..."
+
+sudo pacman -S fish dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland \
+wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse \
+pipewire-jack wireplumber waybar alacritty git pcmanfm file-roller neovim \
+bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv \
+grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils \
+kvantum gtk-engines gtk-engine-murrine brightnessctl polkit-gnome xorg-xhost \
+firefox udisks2 swaylock swayidle --noconfirm
+
+chsh
+
+read -p "en or es?: " lang
+     case $lang in
+        "en")
+            mkdir -p ~/Documents
+            cd ~/Documents
+            git clone https://aur.archlinux.org/paru.git
+            cd paru
+            makepkg -si --noconfirm
+            ;;
+        "es")
+            mkdir -p ~/Documentos
+            cd ~/Documentos
+            git clone https://aur.archlinux.org/paru.git
+            cd paru
+            makepkg -si --noconfirm
+            ;;
+    esac
+
+cd
+paru -S rofi-lbonn-wayland-git
+systemctl enable --user wireplumber
+systemctl enable --user pipewire
+sudo systemctl enable bluetooth
+
+sudo ln -s /usr/bin/rofi /usr/bin/dmenu
+

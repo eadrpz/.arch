@@ -44,6 +44,15 @@ sudo systemctl enable bluetooth
     sudo ln -s /usr/bin/rofi /usr/bin/dmenu
     ```
 
+7. Change a config setting to enable power menu
+```bash
+sudo nano /etc/systemd/logind.conf
+# Add this line
+HandlePowerKey=ignore
+# Run this command
+sudo systemctl kill -s HUP systemd-logind
+```
+
 7. Reboot.
 8. Clone my repo [.files](https://github.com/pzeadrian/.files) and run some basic scripts.
 ```bash

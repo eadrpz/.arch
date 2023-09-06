@@ -23,7 +23,7 @@ window {
     border:                         1px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          14.9%;
+    width:                          286px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;

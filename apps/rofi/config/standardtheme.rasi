@@ -61,6 +61,7 @@ listview {
     border:                         0px 0px 0px;
     margin:                         10px 10px 10px 10px;
     background-color:               @BG;
+    lines:                          5;
 }
 
 element {

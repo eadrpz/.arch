@@ -22,7 +22,7 @@ window {
     border:                         1px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          798px;
+    width:                          785px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;

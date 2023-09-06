@@ -4,12 +4,16 @@ configuration {
     drun-display-format:            "{icon} {name}";
     disable-history:                false;
     click-to-exit: 		            true;
-    location:                       2;
+    location:                       0;
     dpi:                            0;
 }
 
 @import "font.rasi"
 @import "colors.rasi"
+
+* {
+    font:                           @reg;
+}
 
 window {
     transparency:                   "real";
@@ -18,13 +22,23 @@ window {
     border:                         1px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          603px;
+    width:                          41.6%;
     anchor:                         center;
     x-offset:                       0;
-    y-offset:                       10;
+    y-offset:                       0;
     dpi:                            0;
 }
 
+prompt {
+    background-color:               @ON;
+    text-color:                     @BG;
+    border-radius:                  10px;
+    padding:                        10px 15px;
+    vertical-align:                 0.5;
+    margin:                         0 10px 0 0;
+}
+
+/* Textbox prompt color is not in use, but is here just in case it could be neccesary */
 textbox-prompt-colon {
     expand: 			            false;
     str: 			                "Captura de Pantalla";
@@ -52,9 +66,10 @@ listview {
 
 mainbox {
     background-color:               @BG;
-    children:                       [ listview ];
-    spacing:                       	15px;
+    children:                       [ prompt, listview ];
+    spacing:                       	0px;
     padding:                        10px;
+    orientation:                    horizontal;
 }
 
 element {
@@ -62,7 +77,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  10px;
-    padding:                        10px 10px 10px 10px;
+    padding:                        10px 10px;
     font:                           @reg;
 }
 

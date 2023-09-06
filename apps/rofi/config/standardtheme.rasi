@@ -64,7 +64,7 @@ listview {
 }
 
 element {
-    padding:                        5px 15px 5px 15px;
+    padding:                        10px 15px 10px 15px;
     border-radius:                  10px;
     background-color:               @BG;
     text-color:                     @FG;
@@ -85,7 +85,7 @@ element-text {
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         10px 10px 10px 10px;
+    margin:                         5px 5px 5px 5px;
     font:                           @reg;
 }
 

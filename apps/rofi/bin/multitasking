@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 rofi \
 	-show window \
-	-modi window,run,drun,ssh \
+	-modi window \
+	-display-window "Tasks" \
 	-scroll-method 0 \
 	-terminal alacritty \
 	-theme "$HOME"/.config/rofi/config/multitasking.rasi \

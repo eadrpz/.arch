@@ -10,6 +10,11 @@ configuration {
 @import "font.rasi"
 @import "colors.rasi"
 
+* {
+    font:                           @reg;
+}
+
+
 window {
     transparency:                   "real";
     background-color:               @BG;
@@ -17,18 +22,32 @@ window {
     border:                  	    1px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          578px;
+    width:                          32.2%;
     x-offset:                       0;
-    y-offset:                       10;
+    y-offset:                       0;
 }
 
 prompt {
-    enabled: 			            true;
-    margin: 			            0px 0px 0px 0px;
-    padding: 			            10px;
-    background-color: 		        @BG;
-    text-color: 		            @FG;
-    border:                  	    0px 0px 0px 0px;
+    background-color:               @ON;
+    text-color:                     @BG;
+    border-radius:                  10px;
+    padding:                        5px 15px;
+    vertical-align:                 0.5;
+    margin:                         0 10px 0 0;
+}
+
+/* Textbox prompt color is not in use, but is here just in case it could be neccesary */
+textbox-prompt-colon { 
+    expand: 			            false;
+    str: 			                "Power Menu";
+    font:                           @reg;
+    background-color:               @ON;
+    text-color:                     @BG;
+    margin:                         10px 210px 10px 210px;
+    padding:                        5px;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    border:                         0px;
     border-color:                   @BDR;
     border-radius:                  10px;
 }
@@ -55,9 +74,10 @@ listview {
 
 mainbox {
     background-color:               @BG;
-    children:                       [ listview ];
+    children:                       [ prompt, listview ];
     spacing:                        0px;
     padding:                        10px;
+    orientation:                    horizontal;
 }
 
 element {
@@ -65,7 +85,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  10px;
-    padding:                        10px 20px;
+    padding:                        5px 10px;
 }
 
 element-icon {

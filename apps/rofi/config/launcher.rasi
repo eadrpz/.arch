@@ -1,9 +1,19 @@
-configuration {
-    location:                       0;
-}
-
 @import "font.rasi"
 @import "colors.rasi"
+
+configuration {
+    location:                       0;
+    fixed-num-lines:                false;
+}
+
+* {
+    font:                           @reg;
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
 
 window {
     transparency:                   "real";
@@ -18,62 +28,48 @@ window {
     y-offset:                       10;
 }
 
-prompt {
-    enabled: 			            false;
-    padding: 			            10px;
-    background-color: 		        @BG;
-    text-color: 		            @IMG;
+mainbox {
+    background-color: @BG;
+    children:                       [ inputbar, listview ];
 }
 
 inputbar {
+    children:                       [prompt,entry];
     background-color:               @BG;
-}
-
-entry {
-    background-color:               @BG;
-    text-color:                     @FGB;
-    placeholder-color:              @FGB;
-    expand:                         true;
-    horizontal-align:               0;
-    placeholder:                    "Search Apps";
-    blink:                          true;
-    border:                  	    0px 0px 0px 0px;
-    border-color:                   @BDR;
     border-radius:                  10px;
-    padding:                        10px 15px 10px 15px;
-    margin:                         10px 10px 10px 10px;
-    font:                           @bold;
+    margin:                         20px;
 }
 
-case-indicator {
-    background-color:               @BG;
-    text-color:                     @FG;
-    spacing:                        0;
-}
-
-listview {
-    background-color:               @BG;
-    columns:                        1;
-    lines:			                5;
-    spacing:                        10px;
-    cycle:                          true;
-    dynamic:                        true;
-    layout:                         vertical;
-}
-
-mainbox {
-    background-color:               @BG;
-    children:                       [ inputbar, listview ];
-    spacing:                        15px;
+prompt {
+    background-color:               @ON;
+    text-color:                     @BG;
+    border-radius:                  10px;
     padding:                        10px;
 }
 
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding:                        10px;
+    text-color:                     @FG;
+    background-color:               @BG;
+}
+
+listview {
+    border:                         0px 0px 0px;
+    margin:                         10px 10px 10px 10px;
+    background-color:               @BG;
+    lines:			                5;
+}
+
 element {
+    padding:                        10px 15px 10px 15px;
+    border-radius:                  10px;
     background-color:               @BG;
     text-color:                     @FG;
-    orientation:                    horizontal;
-    border-radius:                  10px;
-    padding:                        5px 15px 5px 15px;
 }
 
 element-icon {
@@ -81,7 +77,7 @@ element-icon {
     text-color:       		        inherit;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    size:                           35px;
+    size:                           30px;
     border:                         0px;
 }
 
@@ -91,37 +87,28 @@ element-text {
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         10px 10px 10px 10px;
+    margin:                         5px 5px 5px 5px;
     font:                           @reg;
 }
 
-element normal.urgent,
-element alternate.urgent {
-    background-color:               @UGT;
-    text-color:                     @FG;
-    border-radius:                  10px;
-}
-
-element normal.active,
-element alternate.active {
-    background-color:               @BGA;
-    text-color:                     @FG;
-}
-
 element selected {
-    background-color:               @BGA;
-    text-color:                     @SEL;
-    border:                  	    0px 0px 0px 0px;
-    border-radius:                  10px;
-    border-color:                   @BDR;
+    background-color:  @BGA;
+    text-color: @FG;
 }
 
-element selected.urgent {
-    background-color:               @UGT;
-    text-color:                     @FG;
+mode-switcher {
+    spacing: 0;
+  }
+
+button {
+    padding: 10px;
+    background-color: @BG;
+    text-color: @FGA;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
 }
 
-element selected.active {
-    background-color:               @BGA;
-    color:                          @FG;
+button selected {
+  background-color: @ON;
+  text-color: @BG;
 }

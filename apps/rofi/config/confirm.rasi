@@ -12,6 +12,10 @@ configuration {
 @import "font.rasi"
 @import "colors.rasi"
 
+* {
+    font:                           @reg;
+}
+
 window {
     transparency:                   "real";
     background-color:               @BG;
@@ -19,13 +23,23 @@ window {
     border:                         1px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          275px;
+    width:                          14.9%;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;
     dpi:                            0;
 }
 
+prompt {
+    background-color:               @ON;
+    text-color:                     @BG;
+    border-radius:                  10px;
+    padding:                        5px 15px;
+    vertical-align:                 0.5;
+    margin:                         0 10px 0 0;
+}
+
+/* Textbox prompt color is not in use, but is here just in case it could be neccesary */
 textbox-prompt-colon {
     expand: 			            false;
     str: 			                "Are you sure?";
@@ -43,19 +57,20 @@ textbox-prompt-colon {
 
 listview {
     background-color:               @BG;
-    columns:                        2;
-    lines:							1;
+    columns:                        1;
+    lines:							2;
     spacing:                        5px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         vertical;
+    layout:                         horizontal;
 }
 
 mainbox {
     background-color:               @BG;
-    children:                       [ textbox-prompt-colon, listview ];
-    spacing:                       	15px;
+    children:                       [ prompt, listview ];
+    spacing:                       	0px;
     padding:                        10px;
+    orientation:                    horizontal;
 }
 
 element {
@@ -63,8 +78,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  10px;
-    padding:                        10px 0px 10px 0px;
-    font:                           @reg;
+    padding:                        5px 10px;
 }
 
 element-icon {

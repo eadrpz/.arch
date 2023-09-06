@@ -53,7 +53,7 @@ no="No"
 yesno="$yes\n$no"
 function rdialog () {
 
-	chosen="$(echo -e "$yesno" |  rofi -theme $HOME/.config/rofi/config/confirm.rasi -dmenu -selected-row 0)"
+	chosen="$(echo -e "$yesno" |  rofi -theme $HOME/.config/rofi/config/confirm.rasi -dmenu -p "Are you sure?" -selected-row 0)"
 	case $chosen in
     $yes)
 		return 1	
@@ -73,7 +73,7 @@ show_msg() {
 # Variable passed to rofi
 options="$suspend\n$logout\n$reboot\n$shutdown\n$lock"
 
-chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Power Menu" -dmenu -selected-row 0)"
 case $chosen in
     $shutdown)
 		rdialog

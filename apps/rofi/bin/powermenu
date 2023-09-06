@@ -126,7 +126,9 @@ case $chosen in
 		rdialog
 		ans=$?
 		if [[ $ans == 1 ]]; then
-			swaylock
+			swayidle -w timeout 1 'swaylock -f' timeout 300 'hyprctl dispatch dpms off' \
+			resume 'hyprctl dispatch dpms on && pkill swayidle && swayidle -w timeout 300 "swaylock -f" timeout 600 "hyprctl dispatch dpms off" resume "hyprctl dispatch dpms on" before-sleep "swaylock -f"' \
+			before-sleep 'swaylock -f'
 		elif [[ $ans == 0 ]]; then
 			exit
         else

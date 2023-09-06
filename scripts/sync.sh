@@ -32,6 +32,8 @@ if [ -d "$HOME/Documents/" ]; then
     # Waybar
     cp -rf $HOME/.config/waybar/ $HOME/Documents/.files/apps/
     #
+    # Swaylock
+    cp -rf $HOME/.config/swaylock $HOME/Documents/.files/apps/
 
     cd $HOME/Documents/.files/
     git add -A
@@ -70,6 +72,8 @@ elif [ -d "$HOME/Documentos/" ]; then
     # Waybar
     cp -rf $HOME/.config/waybar/ $HOME/Documentos/.files/apps/
     #
+    # Swaylock
+    cp -rf $HOME/.config/swaylock $HOME/Documents/.files/apps/
 
     cd $HOME/Documentos/.files/
     git add -A

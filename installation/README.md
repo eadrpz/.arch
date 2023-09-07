@@ -44,10 +44,10 @@ sudo systemctl enable bluetooth
 ```
 
 6. Run some basic commands.
-    6.1. rofi-dmenu (dmenu replacement for dunst)
-    ```sh
-    sudo ln -s /usr/bin/rofi /usr/bin/dmenu
-    ```
+```sh
+# This replaces dmenu with rofi, useful for some scripts.
+sudo ln -s /usr/bin/rofi /usr/bin/dmenu
+```
 
 7. Change a config setting to enable power menu
 ```sh

@@ -1,5 +1,10 @@
-Ok, let's go, first of all, install Arch Linux, you can use my guide, [archinstall](https://github.com/pzeadrian/archinstall)
+Ok, let's go, first of all, install Arch Linux, you can use my guide, [archinstall](https://github.com/pzeadrian/archinstall). 
 After you successfully installed Arch:
+
+> [!NOTE]
+> Now, there's a script on my repo that makes all that process semi automatic, 
+> install git (sudo pacman -S git), clone my repo and run first.install from
+> scripts folder, but just do it if you are installing my config for first time.
 
 1. Install some basic packages.
 ```sh

@@ -17,9 +17,6 @@ if [ -d "$HOME/Documents/" ]; then
     # Dunst
     cp -rf $HOME/.config/dunst/ $HOME/Documents/.arch/apps/
     #
-    # Fish
-    cp -rf $HOME/.config/fish/ $HOME/Documents/.arch/apps/
-    #
     # MPV
     cp -rf $HOME/.config/mpv/ $HOME/Documents/.arch/apps/
     #
@@ -56,9 +53,6 @@ elif [ -d "$HOME/Documentos/" ]; then
     #
     # Dunst
     cp -rf $HOME/.config/dunst/ $HOME/Documentos/.arch/apps/
-    #
-    # Fish
-    cp -rf $HOME/.config/fish/ $HOME/Documentos/.arch/apps/
     #
     # MPV
     cp -rf $HOME/.config/mpv/ $HOME/Documentos/.arch/apps/

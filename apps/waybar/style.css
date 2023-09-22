@@ -35,6 +35,7 @@
 window#waybar {
 	background: #181818;
 	border-radius: 0px;
+	opacity: 0.95;
 }
 
 window#waybar.hidden {

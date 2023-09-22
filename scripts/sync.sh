@@ -67,13 +67,13 @@ elif [ -d "$HOME/Documentos/" ]; then
     cp -rf $HOME/.config/rofi/ $HOME/Documentos/.arch/apps/
     #
     # Hyprland
-    cp -rf $HOME/.config/hypr/ $HOME/Documents/.arch/apps/
+    cp -rf $HOME/.config/hypr/ $HOME/Documentos/.arch/apps/
     #
     # Waybar
     cp -rf $HOME/.config/waybar/ $HOME/Documentos/.arch/apps/
     #
     # Swaylock
-    cp -rf $HOME/.config/swaylock $HOME/Documents/.arch/apps/
+    cp -rf $HOME/.config/swaylock $HOME/Documentos/.arch/apps/
 
     cd $HOME/Documentos/.arch/
     git add -A

@@ -1,10 +1,10 @@
 {
 	"layer": "top",
 	"position": "top",
-	"margin": "5 5 0 5",
+	"margin": "0 0 0 0",
 	"modules-left": [ "hyprland/workspaces", "hyprland/window"],
 	"modules-center": [],
-	"modules-right": ["tray" , "network", "battery" , "backlight", "pulseaudio", "temperature",  "hyprland/language", "clock"],
+	"modules-right": ["tray" , "network", "battery" , "backlight", "pulseaudio", "temperature", "hyprland/language", "clock"],
 
 	"hyprland/window": {
     	"format": "{}",
@@ -16,21 +16,25 @@
 	},
 	"backlight": {
 	    "device": "intel_backlight",
-	    "format": "{percent}% {icon}",
-	    "format-icons": ["", ""]
+	    "format": "{icon} {percent}%",
+	    "format-icons": ["󰃞", "󰃠"]
 	},
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
 		"format": "{icon} {volume}%",
-		"format-muted": "M",
+		"format-muted": "󰖁",
 		"format-icons": {
-			"default": ["奄", "奔", "墳"]
+			"default": ["", "", ""]
 		}
 	},
+	"temperature": {
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": [""]
+	},
 	"tray": {
-		"icon-size": 21,
-		"spacing": 5
+		"icon-size": 16,
+		"spacing": 10
 	},
 	"network": {
 		"tooltip": false,
@@ -43,8 +47,8 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{capacity}% {icon}",
-		"format-icons": ["", "", "", "", ""],
+		"format": "{icon} {capacity}%",
+		"format-icons": ["  ", "  ", "  ", "  ", "  "],
 	},
 	"cpu": {
 		"tooltip": false,

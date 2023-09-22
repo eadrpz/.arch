@@ -6,9 +6,9 @@ After you successfully installed Arch:
 > install git (sudo pacman -S git), clone my repo and run first.install from
 > scripts folder, but just do it if you are installing my config for first time.
 
-1. Install some basic packages.
+- Install some basic packages.
 ```sh
-sudo pacman -S fish dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
+sudo pacman -S dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse 
 pipewire-jack wireplumber waybar alacritty git pcmanfm file-roller neovim 
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv 
@@ -17,12 +17,7 @@ kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome x
 firefox udisks2 swaylock swayidle libva-utils ttf-opensans noto-fonts-emoji
 ```
 
-2. Change the shell to /bin/fish.
-```sh
-chsh
-```
-
-3. Install an AUR helper, [paru](https://github.com/Morganamilo/paru), for example.
+- Install an AUR helper, [paru](https://github.com/Morganamilo/paru), for example.
 ```sh
 mkdir Documents
 cd Documents
@@ -31,25 +26,25 @@ cd paru
 makepkg -si
 ```
 
-4. Install some AUR packages
+- Install some AUR packages
 ```sh
 paru -S rofi-lbonn-wayland-git
 ```
 
-5. Enable some basic services.
+- Enable some basic services.
 ```sh
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
 sudo systemctl enable bluetooth
 ```
 
-6. Run some basic commands.
+- Run some basic commands.
 ```sh
 # This replaces dmenu with rofi, useful for some scripts.
 sudo ln -s /usr/bin/rofi /usr/bin/dmenu
 ```
 
-7. Change a config setting to enable power menu
+- Change a config setting to enable power menu
 ```sh
 sudo nano /etc/systemd/logind.conf
 # Add this line
@@ -58,8 +53,8 @@ HandlePowerKey=ignore
 sudo systemctl kill -s HUP systemd-logind
 ```
 
-7. Reboot.
-8. Clone my repo [.files](https://github.com/pzeadrian/.files) and run some basic scripts.
+- Reboot.
+- Clone my repo [.files](https://github.com/pzeadrian/.files) and run some basic scripts.
 ```sh
 cd Documents
 git clone https://github.com/pzeadrian/.files
@@ -73,5 +68,3 @@ cd .files/scripts
 QT_STYLE_OVERRIDE=kvantum
 MOZ_ENABLE_WAYLAND=1
 ```
-
-

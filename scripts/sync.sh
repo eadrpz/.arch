@@ -31,6 +31,9 @@ if [ -d "$HOME/Documents/" ]; then
     #
     # Swaylock
     cp -rf $HOME/.config/swaylock $HOME/Documents/.arch/apps/
+    #
+    # Cava
+    cp -rf $HOME/.config/cava $HOME/Documents/.arch/apps/
 
     cd $HOME/Documents/.arch/
     git add -A
@@ -68,6 +71,9 @@ elif [ -d "$HOME/Documentos/" ]; then
     #
     # Swaylock
     cp -rf $HOME/.config/swaylock $HOME/Documentos/.arch/apps/
+    #
+    # Cava
+    cp -rf $HOME/.config/cava $HOME/Documentos/.arch/apps/
 
     cd $HOME/Documentos/.arch/
     git add -A

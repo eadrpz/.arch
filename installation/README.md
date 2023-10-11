@@ -14,7 +14,7 @@ pipewire-jack wireplumber waybar alacritty git pcmanfm file-roller neovim
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv 
 grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost
-firefox udisks2 swaylock swayidle libva-utils ttf-opensans noto-fonts-emoji
+firefox udisks2 swaylock swayidle libva-utils ttf-opensans noto-fonts-emoji gammastep
 ```
 
 - Install an AUR helper, [paru](https://github.com/Morganamilo/paru), for example.

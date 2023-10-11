@@ -26,7 +26,7 @@
 
 * {
 	border: none;
-	border-radius: 50px;
+	border-radius: 25px;
 	font-family: Ubuntu Nerd Font;
 	font-size: 15px;
 	min-height: 18px;
@@ -54,7 +54,7 @@ window#waybar.hidden {
 	padding-left: 15px;
 	padding-right: 15px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -77,7 +77,7 @@ window#waybar.hidden {
 	padding-left: 8px;
 	padding-right: 8px;
 	
-	border-radius: 50px;
+	border-radius: 25px;
 
 	background: #282828;
 	transition: none;
@@ -89,7 +89,7 @@ window#waybar.hidden {
 	padding-left: 2px;
 	padding-right: 2px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -110,9 +110,9 @@ window#waybar.hidden {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 10px;	
-	padding-right: 5px;
+	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	background: #282828;
 }
@@ -126,7 +126,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -142,7 +142,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -158,7 +158,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -174,7 +174,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -190,7 +190,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	color: #f8f8f8;
 	background: #282828;
@@ -212,7 +212,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;
@@ -228,7 +228,7 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 10px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 	
 	transition: none;
 	color: #f8f8f8;
@@ -244,7 +244,7 @@ window#waybar.hidden {
 	padding-left: 10px; /*can't be 10 because sometimes big languages name not shown*/
 	padding-right: 10px; /*can't be 10 because sometimes big languages name not shown*/
 
-	border-radius: 50px;
+	border-radius: 25px;
 	
 	transition: none;
 	color: #f8f8f8;
@@ -260,7 +260,7 @@ window#waybar.hidden {
 	padding-left: 15px;
 	padding-right: 15px;
 
-	border-radius: 50px;
+	border-radius: 25px;
 
 	transition: none;
 	color: #f8f8f8;

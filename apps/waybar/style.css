@@ -86,8 +86,8 @@ window#waybar.hidden {
 #workspaces button {
 	margin: 0px 2px;
 
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
 
 	border-radius: 25px;
 
@@ -99,8 +99,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-	/* color: #181818; */
-	/* background: #a1b56c; */
+	color: #181818;
+	background: #a1b56c;
 }
 
 #tray {

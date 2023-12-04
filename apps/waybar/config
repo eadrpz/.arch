@@ -13,7 +13,7 @@
 	"hyprland/workspaces": {
 		"all-outputs": false,
 		"active-only": false,
-		"format": "{icon}",
+		"format": "{name}",
 		"format-icons": {
 			"active": "",
 			"default": ""

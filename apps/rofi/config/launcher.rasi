@@ -19,9 +19,9 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         1px;
+    border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  10px;
+    border-radius:                  20px;
     width:                          35%;
     anchor:                         center;
     x-offset:                       0;
@@ -36,14 +36,14 @@ mainbox {
 inputbar {
     children:                       [prompt,entry];
     background-color:               @BG;
-    border-radius:                  10px;
+    border-radius:                  20px;
     margin:                         20px;
 }
 
 prompt {
     background-color:               @ON;
     text-color:                     @BG;
-    border-radius:                  10px;
+    border-radius:                  20px;
     padding:                        10px;
 }
 
@@ -67,7 +67,7 @@ listview {
 
 element {
     padding:                        10px 15px 10px 15px;
-    border-radius:                  10px;
+    border-radius:                  20px;
     background-color:               @BG;
     text-color:                     @FG;
 }

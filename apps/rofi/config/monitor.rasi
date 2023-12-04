@@ -18,9 +18,9 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         1px;
+    border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  10px;
+    border-radius:                  20px;
     width:                          843px;
     anchor:                         center;
     x-offset:                       0;
@@ -31,7 +31,7 @@ window {
 prompt {
     background-color:               @ON;
     text-color:                     @BG;
-    border-radius:                  10px;
+    border-radius:                  20px;
     padding:                        10px 15px;
     vertical-align:                 0.5;
     margin:                         0 10px 0 0;
@@ -49,7 +49,7 @@ textbox-prompt-colon {
     font:			                @bold-big;
     border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  10px;
+    border-radius:                  20px;
 }
 
 listview {
@@ -74,7 +74,7 @@ element {
     background-color:               @BG;
     text-color:                     @FG;
     orientation:                    horizontal;
-    border-radius:                  10px;
+    border-radius:                  20px;
     padding:                        10px 10px;
     font:                           @reg;
 }
@@ -100,7 +100,7 @@ element selected {
     background-color:               @BGA;
     text-color:                     @SEL;
     border:                  		0px 0px 0px 0px;
-    border-radius:                  10px;
+    border-radius:                  20px;
     border-color:                  	@BDR;
 }
 

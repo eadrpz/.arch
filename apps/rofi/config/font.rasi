@@ -1,14 +1,14 @@
 * {
-    reg:        "Ubuntu Nerd Font 13";
-    bold:       "Ubuntu Nerd Font Bold 13";
-    ita:        "Ubuntu Nerd Font Italic 13";
-    reg-big:    "Ubuntu Nerd Font 15"; 
-    bold-big:   "Ubuntu Nerd Font Bold 15";
-    ita-big:    "Ubuntu Nerd Font Italic 15";
-    reg-sm:     "Ubuntu Nerd Font 11";
-    bold-sm:    "Ubuntu Nerd Font Bold 11";
-    ita-sm:     "Ubuntu Nerd Font Italic 11";
-    reg-icon:   "Ubuntu Nerd Font 25";
-    bold-icon:   "Ubuntu Nerd Font Bold 25";
-    ita-icon:   "Ubuntu Nerd Font Italic 25";
+    reg:        "RedHat Nerd Font  13";
+    bold:       "RedHatNerd Font Bold 13";
+    ita:        "RedHat Nerd Font Italic 13";
+    reg-big:    "RedHat Nerd Font 15"; 
+    bold-big:   "RedHat Nerd Font Bold 15";
+    ita-big:    "RedHat Nerd Font Italic 15";
+    reg-sm:     "RedHat Nerd Font 11";
+    bold-sm:    "RedHat Nerd Font Bold 11";
+    ita-sm:     "RedHat Nerd Font Italic 11";
+    reg-icon:   "RedHat Nerd Font 25";
+    bold-icon:   "RedHat Nerd Font Bold 25";
+    ita-icon:   "RedHat Nerd Font Italic 25";
 }

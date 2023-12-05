@@ -7,11 +7,11 @@ if [ -d "$HOME/Documents/" ]; then
     git pull
     cd
     mkdir -p $HOME/.config
-    mkdir -p $HOME/.wallpapers
+    mkdir -p $HOME/.wallpaper
 
     cp -rf $HOME/Documents/.arch/apps/* $HOME/.config/
     cp -f $HOME/Documents/.arch/apps/.bashrc $HOME/
-    cp -rf $HOME/Documents/.arch/wallpapers/* $HOME/.wallpapers/
+    cp -rf $HOME/Documents/.arch/wallpaper/* $HOME/.wallpaper/
 
     read -p "RESOLUTION (1080 or 768): " res
     sh $HOME/Documents/.arch/scripts/resolution $res
@@ -23,11 +23,11 @@ elif [ -d "$HOME/Documentos/" ]; then
     git pull
     cd
     mkdir -p $HOME/.config
-    mkdir -p $HOME/.wallpapers
+    mkdir -p $HOME/.wallpaper
 
     cp -rf $HOME/Documentos/.arch/apps/* $HOME/.config/
     cp -f $HOME/Documentos/.arch/apps/.bashrc $HOME/
-    cp -rf $HOME/Documentos/.arch/wallpapers/* $HOME/.wallpapers/
+    cp -rf $HOME/Documentos/.arch/wallpaper/* $HOME/.wallpaper/
 
     read -p "RESOLUTION (1080 or 768): " res
     sh $HOME/Documentos/.arch/scripts/resolution $res

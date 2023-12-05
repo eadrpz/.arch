@@ -34,7 +34,7 @@
 		"format": "{icon} {volume}%",
 		"format-muted": "󰖁",
 		"format-icons": {
-			"default": ["", "", ""]
+			"default": ["󰕿", "󰖀", "󰕾"]
 		}
 	},
 	"temperature": {

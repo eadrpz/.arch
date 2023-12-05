@@ -24,11 +24,11 @@ else
 		# suspend=""
 		# logout=""
   # Section 2
-		shutdown="襤"
-		reboot=""
-		suspend="鈴"
-		logout=""
-		lock=""
+		shutdown="󰐥"
+		reboot="󰜉"
+		suspend="󰤄"
+		logout="󰍃"
+		lock="󰌾"
 
 
 	else
@@ -38,11 +38,11 @@ else
 		# suspend=" Sleep"
 		# logout=" Logout"
   # Section 2
-		shutdown="襤"
-		reboot=""
-		suspend="鈴"
-		logout=""
-		lock=""
+		shutdown="󰐥"
+		reboot="󰜉"
+		suspend="󰤄"
+		logout="󰍃"
+		lock="󰌾"
 	fi
 	ddir="$HOME/.config/rofi/config"
 fi

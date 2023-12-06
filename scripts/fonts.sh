@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [[ -d "$HOME/.local/share/fonts/RedHat" ]]; then
+if [[ -d "$HOME/.local/share/fonts/Ubuntu" ]]; then
     echo "Fonts already installed, but refreshing them, just in case..." 
-    rm -R $HOME/.local/share/fonts/RedHat/
+    rm -R $HOME/.local/share/fonts/Ubuntu/
     if [[ -d "$HOME/Documents/" ]]; then
         echo "English..."
         cp -R $HOME/Documents/.arch/fonts/* $HOME/.local/share/fonts/

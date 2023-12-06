@@ -51,7 +51,7 @@
 		"format-ethernet": " {ipaddr}"
 	},
 	"battery": {
-		"interval": 60,
+		"interval": 30,
 		"states": {
 			"warning": 30,
 			"critical": 15

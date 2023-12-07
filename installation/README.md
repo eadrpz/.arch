@@ -11,6 +11,7 @@ After you successfully installed Arch:
 sudo pacman -S dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse 
 pipewire-jack wireplumber waybar alacritty git thunar thunar-archive-plugin file-roller neovim 
+gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-keyring
 grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost

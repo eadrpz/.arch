@@ -74,8 +74,8 @@ window#waybar.hidden {
 
 	padding-top: 1px;
 	padding-bottom: 1px;	
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
 	
 	border-radius: 25px;
 
@@ -84,10 +84,11 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-	margin: 0px 2px;
+	margin: 3px 2px;
 
-	padding-left: 5px;
-	padding-right: 5px;
+	padding: 5px;
+	/* padding-left: 5px; */
+	/* padding-right: 5px; */
 
 	border-radius: 25px;
 

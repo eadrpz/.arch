@@ -27,7 +27,7 @@
 * {
 	border: none;
 	border-radius: 20px;
-	font-family: Ubuntu Nerd Font;
+	font-family: SF Pro Display;
 	font-size: 15px;
 	min-height: 18px;
 }
@@ -60,7 +60,7 @@ window#waybar.hidden {
 	color: #f8f8f8;
 	background: #282828;
 
-	font-family: sans-serif, Ubuntu Nerd Font;
+	font-family: sans-serif, SF Pro Display;
 	
 }
 

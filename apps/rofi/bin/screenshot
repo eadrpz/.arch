@@ -17,9 +17,9 @@ if [[ "$layout" == "TRUE" ]]; then
 	window=" "
 	area="󰩬 "
 else
-	screen="󰹑   Full-screen mode"
-	window="   Window mode"
-	area="󰩬   Rectangular mode"
+	screen="󰹑   Pantalla Completa"
+	window="   Ventana"
+	area="󰩬   Recorte de Pantalla"
 fi
 
 # take shots
@@ -43,7 +43,8 @@ fi
 # Variable passed to rofi
 options="$screen\n$window\n$area"
 
-chosen="$(echo -e "$options" |  $rofi_command -p 'Take a screenshot' -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" |  $rofi_command -p 'Capturar
+Pantalla' -dmenu -selected-row 0)"
 case $chosen in
     $screen)
 		shotnow

@@ -21,7 +21,7 @@ window {
     border:                         0px;
     border-color:                   @BDR;
     border-radius:                  20px;
-    width:                          843px;
+    width:                          20%;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;
@@ -34,6 +34,7 @@ prompt {
     border-radius:                  20px;
     padding:                        10px 15px;
     vertical-align:                 0.5;
+    horizontal-align:               0.5;
     margin:                         0 10px 0 0;
 }
 
@@ -59,7 +60,7 @@ listview {
     spacing:                        10px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         horizontal;
+    layout:                         vertical;
 }
 
 mainbox {

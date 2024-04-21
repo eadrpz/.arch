@@ -4,7 +4,7 @@ configuration {
     drun-display-format:            "{icon}";
     disable-history:                false;
     click-to-exit: 		            true;
-    location:                       0;
+    location:                       2;
 }
 
 @import "font.rasi"
@@ -22,9 +22,10 @@ window {
     border:                  	    0px;
     border-color:                   @BDR;
     border-radius:                  20px;
-    width:                          617px;
+    width:                          436px;
     x-offset:                       0;
     y-offset:                       0;
+    margin:                         10px 0 0 0;
 }
 
 prompt {
@@ -74,7 +75,7 @@ listview {
 
 mainbox {
     background-color:               @BG;
-    children:                       [ prompt, listview ];
+    children:                       [ listview ];
     spacing:                        0px;
     padding:                        10px;
     orientation:                    horizontal;
@@ -85,7 +86,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  20px;
-    padding:                        5px 10px;
+    padding:                        0px 15px 10px 10px;
 }
 
 element-icon {
@@ -109,8 +110,8 @@ element-text {
 }
 
 element selected {
-    background-color:               @BGA;
-    text-color:                     @SEL;
+    background-color:               @ON;
+    text-color:                     @BG;
     border:                  	    0px 0px 0px 0px;
     border-radius:                  20px;
     border-color:                   @BDR;

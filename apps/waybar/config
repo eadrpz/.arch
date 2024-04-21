@@ -25,20 +25,20 @@
 	},
 	"backlight": {
 	    "device": "intel_backlight",
-	    "format": "{icon} {percent}%",
+	    "format": "{icon}   {percent}%",
 	    "format-icons": ["󰃞", "󰃠"]
 	},
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
-		"format": "{icon} {volume}%",
+		"format": "{icon}  {volume}%",
 		"format-muted": "󰖁",
 		"format-icons": {
 			"default": ["󰕿", "󰖀", "󰕾"]
 		}
 	},
 	"temperature": {
-		"format": "{icon} {temperatureC}°C",
+		"format": "{icon}  {temperatureC}°C",
 		"format-icons": [""]
 	},
 	"tray": {
@@ -47,7 +47,7 @@
 	},
 	"network": {
 		"tooltip": false,
-		"format-wifi": "󰤥  {essid} {ipaddr}",
+		"format-wifi": "󰤥   {essid} {ipaddr}",
 		"format-ethernet": " {ipaddr}"
 	},
 	"battery": {
@@ -56,8 +56,8 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon} {capacity}%",
-		"format-charging": "󱐋 {capacity}%",
+		"format": "{icon}  {capacity}%",
+		"format-charging": "󱐋  {capacity}%",
 		"format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"],
 	},
 	"cpu": {

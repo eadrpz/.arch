@@ -30,6 +30,7 @@ window {
 
 mainbox {
     background-color: @BG;
+    children:                       [ inputbar, listview ];
 }
 
 inputbar {

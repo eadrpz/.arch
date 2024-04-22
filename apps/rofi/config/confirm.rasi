@@ -17,13 +17,13 @@ configuration {
 }
 
 window {
-    transparency:                   "background";
+    transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
     border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  20px;
-    width:                          273px;
+    border-radius:                  15px;
+    width:                          262px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;
@@ -33,7 +33,7 @@ window {
 prompt {
     background-color:               @ON;
     text-color:                     @NBG;
-    border-radius:                  20px;
+    border-radius:                  15px;
     padding:                        5px 15px;
     vertical-align:                 0.5;
     margin:                         0 10px 0 0;
@@ -52,7 +52,7 @@ textbox-prompt-colon {
     vertical-align:                 0.5;
     border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  20px;
+    border-radius:                  15px;
 }
 
 listview {
@@ -70,14 +70,14 @@ mainbox {
     background-color:               @BG;
     children:                       [ prompt, listview ];
     spacing:                       	0px;
-    padding:                        10px;
+    padding:                        7px;
     orientation:                    horizontal;
 }
 
 element {
     text-color:                     @FG;
     orientation:                    horizontal;
-    border-radius:                  20px;
+    border-radius:                  15px;
     padding:                        5px 10px;
     background-color:               transparent;
 }
@@ -103,7 +103,7 @@ element selected {
     background-color:               @BGA;
     text-color:                     @SEL;
     border:                  		0px 0px 0px 0px;
-    border-radius:                  20px;
+    border-radius:                  15px;
     border-color:                  	@BDR;
 }
 

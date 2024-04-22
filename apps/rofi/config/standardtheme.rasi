@@ -21,8 +21,8 @@ window {
     text-color:                     @FG;
     border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  20px;
-    width:                          35%;
+    border-radius:                  15px;
+    width:                          400px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       10;
@@ -31,20 +31,21 @@ window {
 mainbox {
     background-color: @BG;
     children:                       [ inputbar, listview ];
+    padding:                        5px;
 }
 
 inputbar {
     children:                       [prompt,entry];
     background-color:               @BG;
-    border-radius:                  20px;
-    margin:                         20px;
+    border-radius:                  15px;
     background-color:               transparent;
+    margin:                         5px 5px 15px 5px;
 }
 
 prompt {
     background-color:               @ON;
     text-color:                     @NBG;
-    border-radius:                  20px;
+    border-radius:                  15px;
     padding:                        10px;
 }
 
@@ -62,16 +63,16 @@ entry {
 
 listview {
     border:                         0px 0px 0px;
-    margin:                         10px 10px 10px 10px;
     lines:                          5;
     background-color:               transparent;
 }
 
 element {
-    padding:                        10px 15px 10px 15px;
-    border-radius:                  20px;
+    padding:                        5px 15px 5px 15px;
+    border-radius:                  15px;
     text-color:                     @FG;
     background-color:               transparent;
+    margin:                         0px 5px 0px 5px;
 }
 
 element-icon {

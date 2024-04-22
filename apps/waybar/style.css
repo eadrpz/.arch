@@ -105,6 +105,22 @@ window#waybar.hidden {
 	margin: 2px 2px;
 }
 
+#submap {
+	margin: 5px 3px;
+
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	border-radius: 25px;
+
+	transition: none;
+	color: #282828;
+	background: #a1b56c;
+
+}
+
 #tray {
 	
 	margin: 5px 2px;

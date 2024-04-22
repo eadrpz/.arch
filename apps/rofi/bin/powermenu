@@ -28,7 +28,6 @@ else
 		reboot="󰜉"
 		suspend="󰤄"
 		logout="󰍃"
-		lock="󰍁"
 
 
 	else
@@ -42,7 +41,6 @@ else
 		reboot="󰜉"
 		suspend="󰤄"
 		logout="󰍃"
-		lock="󰍁"
 	fi
 	ddir="$HOME/.config/rofi/config"
 fi
@@ -71,7 +69,7 @@ show_msg() {
 }
 
 # Variable passed to rofi
-options="$suspend\n$logout\n$reboot\n$shutdown\n$lock"
+options="$suspend\n$logout\n$reboot\n$shutdown"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Power Menu" -dmenu -selected-row 0)"
 case $chosen in
@@ -116,19 +114,6 @@ case $chosen in
 		ans=$?
 		if [[ $ans == 1 ]]; then
 			pkill -SIGKILL -u $USER
-		elif [[ $ans == 0 ]]; then
-			exit
-        else
-			show_msg
-        fi
-        ;;
-	$lock)
-		rdialog
-		ans=$?
-		if [[ $ans == 1 ]]; then
-			swayidle -w timeout 1 'swaylock -f' timeout 300 'hyprctl dispatch dpms off' \
-			resume 'hyprctl dispatch dpms on && pkill swayidle && swayidle -w timeout 300 "swaylock -f" timeout 600 "hyprctl dispatch dpms off" resume "hyprctl dispatch dpms on" before-sleep "swaylock -f"' \
-			before-sleep 'swaylock -f'
 		elif [[ $ans == 0 ]]; then
 			exit
         else

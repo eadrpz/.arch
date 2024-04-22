@@ -21,7 +21,7 @@ window {
     border:                         0px;
     border-color:                   @BDR;
     border-radius:                  20px;
-    width:                          20%;
+    width:                          400px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;

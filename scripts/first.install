@@ -31,7 +31,6 @@ read -p "en or es?: " lang
 
 cd
 paru -S rofi-lbonn-wayland-git --noconfirm
-paru -S google-chrome --noconfirm
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
 sudo systemctl enable bluetooth

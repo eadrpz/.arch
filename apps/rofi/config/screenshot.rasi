@@ -56,13 +56,13 @@ textbox-prompt-colon {
 }
 
 listview {
-    background-color:               @BG;
     columns:                        1;
     lines:							3;
     spacing:                        5px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
+    background-color:               transparent;
 }
 
 mainbox {
@@ -74,12 +74,12 @@ mainbox {
 }
 
 element {
-    background-color:               @BG;
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  20px;
     padding:                        10px 10px;
     font:                           @reg;
+    background-color:               transparent;
 }
 
 element-icon {
@@ -105,6 +105,10 @@ element selected {
     border:                  		0px 0px 0px 0px;
     border-radius:                  20px;
     border-color:                  	@BDR;
+}
+
+element-text selected {
+    background-color:               transparent;
 }
 
 element.active,

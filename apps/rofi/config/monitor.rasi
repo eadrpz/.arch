@@ -30,7 +30,7 @@ window {
 
 prompt {
     background-color:               @ON;
-    text-color:                     @BG;
+    text-color:                     @NBG;
     border-radius:                  20px;
     padding:                        10px 15px;
     vertical-align:                 0.5;
@@ -54,13 +54,13 @@ textbox-prompt-colon {
 }
 
 listview {
-    background-color:               @BG;
     columns:                        1;
     lines:							4;
     spacing:                        10px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
+    background-color:               transparent;
 }
 
 mainbox {
@@ -72,12 +72,12 @@ mainbox {
 }
 
 element {
-    background-color:               @BG;
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  20px;
     padding:                        10px 10px;
     font:                           @reg;
+    background-color:               transparent;
 }
 
 element-icon {
@@ -103,6 +103,10 @@ element selected {
     border:                  		0px 0px 0px 0px;
     border-radius:                  20px;
     border-color:                  	@BDR;
+}
+
+element-text selected {
+    background-color:               transparent;
 }
 
 element.active,

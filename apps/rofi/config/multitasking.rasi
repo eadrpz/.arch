@@ -35,14 +35,14 @@ mainbox {
 
 inputbar {
     children:                       [prompt,entry];
-    background-color:               @BG;
     border-radius:                  20px;
     margin:                         20px;
+    background-color:               transparent;
 }
 
 prompt {
     background-color:               @ON;
-    text-color:                     @BG;
+    text-color:                     @NBG;
     border-radius:                  20px;
     padding:                        10px;
 }
@@ -55,20 +55,21 @@ textbox-prompt-colon {
 entry {
     padding:                        10px;
     text-color:                     @FG;
-    background-color:               @BG;
+    background-color:               transparent;
 }
 
 listview {
     border:                         0px 0px 0px;
     margin:                         10px 10px 10px 10px;
     background-color:               @BG;
+    background-color:               transparent;
 }
 
 element {
     padding:                        10px 15px 10px 15px;
     border-radius:                  20px;
-    background-color:               @BG;
     text-color:                     @FG;
+    background-color:               transparent;
 }
 
 element-icon {
@@ -93,6 +94,10 @@ element-text {
 element selected {
     background-color:  @BGA;
     text-color: @FG;
+}
+
+element-text selected {
+    background-color:               transparent;
 }
 
 mode-switcher {

@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 selected="$(ps -a -u $USER | \
-            dmenu -theme "$HOME/.config/rofi/config/standardtheme.rasi" -i -p "Type to search and select process to kill" \
+            dmenu -theme "$HOME/.config/rofi/config/standardtheme.rasi" -i -p "Detener Proceso" \
             awk '{print $1" "$4}')"; 
 
 if [[ ! -z $selected ]]; then
 
-    answer="$(echo -e "Yes\nNo" | \
-        dmenu -theme "$HOME/.config/rofi/config/standardtheme.rasi" -i -p "$selected will be killed, are you sure?")"
+    answer="$(echo -e "Sí\nNo" | \
+        dmenu -theme "$HOME/.config/rofi/config/standardtheme.rasi" -i -p "$selected será detenido, ¿está seguro?")"
 
     if [[ $answer == "Yes" ]]; then
         selpid="$(awk '{print $1}' <<< $selected)"; 

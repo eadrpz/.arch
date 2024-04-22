@@ -23,7 +23,7 @@ window {
     border:                         0px;
     border-color:                   @BDR;
     border-radius:                  20px;
-    width:                          376px;
+    width:                          307px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;
@@ -56,13 +56,13 @@ textbox-prompt-colon {
 }
 
 listview {
-    background-color:               @BG;
     columns:                        1;
     lines:							2;
     spacing:                        5px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         horizontal;
+    background-color:               transparent;
 }
 
 mainbox {
@@ -74,11 +74,11 @@ mainbox {
 }
 
 element {
-    background-color:               @BG;
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  20px;
-    padding:                        5px 10px;
+    padding:                        10px 10px;
+    background-color:               transparent;
 }
 
 element-icon {
@@ -104,6 +104,10 @@ element selected {
     border:                  		0px 0px 0px 0px;
     border-radius:                  20px;
     border-color:                  	@BDR;
+}
+
+element-text selected {
+    background-color:               transparent;
 }
 
 element.active,

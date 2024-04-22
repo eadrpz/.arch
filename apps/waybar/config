@@ -75,7 +75,9 @@
     	"format": "{short}{variant}",
 	},
 	"clock": {
-        "format": "{:%a %b %d, %H:%M}",
-        "tooltip": false
+		"timezone": "America/Guayaquil",
+		"locale": "es_EC.UTF-8",
+        "format": "{:L%A %d de %B - %H:%M}",
+        "tooltip": false,
     },
 }

@@ -1,14 +1,14 @@
 * {
     reg:        "SF Pro Display  11";
-    bold:       "UbuntuNerd Font Bold 11";
+    bold:       "SF Pro Display Bold 11";
     ita:        "SF Pro Display Italic 11";
-    reg-big:    "SF Pro Display 13"; 
-    bold-big:   "SF Pro Display Bold 13";
-    ita-big:    "SF Pro Display Italic 13";
+    reg-big:    "SF Pro Display 15"; 
+    bold-big:   "SF Pro Display Bold 15";
+    ita-big:    "SF Pro Display Italic 15";
     reg-sm:     "SF Pro Display 9";
     bold-sm:    "SF Pro Display Bold 9";
     ita-sm:     "SF Pro Display Italic 9";
-    reg-icon:   "SF Pro Display 24";
-    bold-icon:   "SF Pro Display Bold 24";
-    ita-icon:   "SF Pro Display Italic 24";
+    reg-icon:   "SF Pro Display 30";
+    bold-icon:   "SF Pro Display Bold 30";
+    ita-icon:   "SF Pro Display Italic 30";
 }

@@ -19,7 +19,7 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         0px;
+    border:                         4px;
     border-color:                   @BDR;
     border-radius:                  15px;
     width:                          50%;
@@ -30,49 +30,56 @@ window {
 
 mainbox {
     background-color: @BG;
-    padding:                        5px;
+    children:                       [ inputbar, listview ];
+    padding:                        5px 0px;
 }
 
 inputbar {
     children:                       [prompt,entry];
-    background-color:               @BG;
-    border-radius:                  15px;
-    margin:                         20px;
     background-color:               transparent;
+    border-radius:                  15px;
     margin:                         5px 5px 15px 5px;
+    padding:                        10px;
 }
 
 prompt {
     background-color:               @ON;
     text-color:                     @NBG;
     border-radius:                  15px;
-    padding:                        10px;
+    padding:                        10px 10px 10px 15px;
 }
 
 textbox-prompt-colon {
-    expand: false;
-    str: ":";
+    expand:                         false;
+    content:                        " ";
+    background-color:               transparent;
+    text-color:                     @FGA;
+    border-radius:                  15px;
+    padding:                        2px 10px 0px 15px;
+    font:                           @reg-big;
 }
 
 entry {
-    padding:                        10px;
+    padding:                        5px 10px;
     text-color:                     @FG;
     background-color:               transparent;
+    font:                           @reg-big;
 }
 
 listview {
     border:                         0px 0px 0px;
     background-color:               @BG;
-    lines:                          5;
+    lines:                          7;
     background-color:               transparent;
 }
 
 element {
     padding:                        5px 15px 5px 15px;
-    border-radius:                  15px;
+    border-radius:                  10px;
     text-color:                     @FG;
     background-color:               transparent;
-    margin:                         0px 5px 0px 5px;
+    margin:                         0px 10px;
+    padding:                        5px 10px;
 }
 
 element-icon {

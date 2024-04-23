@@ -20,10 +20,10 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         0px;
+    border:                         4px;
     border-color:                   @BDR;
     border-radius:                  15px;
-    width:                          262px;
+    width:                          266px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;

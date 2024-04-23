@@ -19,7 +19,7 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         0px;
+    border:                         4px;
     border-color:                   @BDR;
     border-radius:                  15px;
     width:                          375px;

@@ -19,10 +19,10 @@ window {
     transparency:                   "real";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                  	    0px;
+    border:                  	    4px;
     border-color:                   @BDR;
     border-radius:                  15px;
-    width:                          353px;
+    width:                          421px;
     x-offset:                       0;
     y-offset:                       0;
 }
@@ -70,6 +70,8 @@ listview {
     dynamic:                        true;
     layout:                         horizontal;
     background-color:               transparent;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
 }
 
 mainbox {
@@ -78,14 +80,17 @@ mainbox {
     spacing:                        0px;
     padding:                        8px;
     orientation:                    horizontal;
+    align-items:                    center;
 }
 
 element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  15px;
-    padding:                        0px 15px 10px 13px;
+    padding:                        5px 20px 15px 18px;
     background-color:               transparent;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
 }
 
 element-icon {
@@ -104,6 +109,8 @@ element-text {
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
+    text-align:                     center;
+    align-items:                    center;
     padding:                        5px;
     margin:                         5px 5px 5px 5px;
 }

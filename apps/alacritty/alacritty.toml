@@ -51,7 +51,7 @@ background = "0x181818"
 foreground = "0xd8d8d8"
 
 [font]
-size = 9.0
+size = 11.0
 
 [font.bold]
 family = "MesloLGL Nerd Font"

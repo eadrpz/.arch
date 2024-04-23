@@ -1,11 +1,18 @@
 {
 	"layer": "top",
 	"position": "top",
-	"margin": "0 0 0 0",
-	"modules-left": [ "hyprland/workspaces", "hyprland/window"],
-	"modules-center": ["clock"],
-	"modules-right": [ "hyprland/submap", "tray", "battery" , "backlight", "pulseaudio", "hyprland/language"],
+	"margin": "5 10 5 10",
+	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
 
+	"custom/logo": {
+		"format": "󰣇"
+	},
+	"custom/finder": {
+		"format": "Finder",
+		"on-click": "~/.config/rofi/bin/filesearch"
+	},
 	"hyprland/window": {
     	"format": "{class}",
     	"separate-outputs": true
@@ -45,8 +52,8 @@
 		"format-icons": [""]
 	},
 	"tray": {
-		"icon-size": 20,
-		"spacing": 5
+		"icon-size": 15,
+		"spacing": 22
 	},
 	"network": {
 		"tooltip": false,
@@ -72,12 +79,14 @@
 		"format": " {}%"
 	},
 	"hyprland/language": {
-    	"format": "{short}{variant}",
+    	"format": "{}",
+		"format-es": "ES",
+		"format-en": "EN"
 	},
 	"clock": {
 		"timezone": "America/Guayaquil",
 		"locale": "es_EC.UTF-8",
-        "format": "{:L%A %d de %B - %H:%M}",
+        "format": "{:L%a %d %b %H:%M}",
         "tooltip": false,
     },
 }

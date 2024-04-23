@@ -14,8 +14,12 @@
 		"on-click": "~/.config/rofi/bin/filesearch"
 	},
 	"hyprland/window": {
-    	"format": "{class}",
-    	"separate-outputs": true
+    	"format": "{title}",
+		"rewrite": {
+			"pzeadrian@(.*)": "Alacritty"
+		},
+    	"separate-outputs": true,
+		"max-length": 35
 	},
 	"hyprland/workspaces": {
 		"all-outputs": false,

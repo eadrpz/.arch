@@ -80,11 +80,14 @@ window#waybar.hidden {
 
 #window {
 	margin: 5px 10px;
-	padding: 0px;
+	padding: 0px 15px;
 	transition: none;
 	color: #f8f8f8;
+	background-color: #282828;
+	border-radius: 10px;
 
 	font-family: sans-serif, SF Pro Display;
+	font-weight: bold;
 	
 }
 

@@ -2,7 +2,7 @@
 	"layer": "top",
 	"position": "top",
 	"margin": "5 10 5 10",
-	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window"],
+	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window", "custom/archivo", "custom/ejecutar", "custom/portapapeles"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
 
@@ -11,12 +11,34 @@
 	},
 	"custom/finder": {
 		"format": "Finder",
+		"on-click": "~/.config/rofi/bin/launcher"
+	},
+	"custom/archivo": {
+		"format": "Archivo",
 		"on-click": "~/.config/rofi/bin/filesearch"
 	},
+	"custom/ejecutar": {
+		"format": "Ejecutar",
+		"on-click": "~/.config/rofi/bin/runner"
+	},
+	"custom/portapapeles": {
+		"format": "Portapapeles",
+		"on-click": "~/.config/rofi/bin/clipboard"
+	},
 	"hyprland/window": {
-    	"format": "{title}",
+    	"format": "{initialClass}",
 		"rewrite": {
-			"pzeadrian@(.*)": "Alacritty"
+			"brave-browser": "Brave Browser",
+			"thunar": "Thunar",
+			"org.gnome.Nautilus": "Nautilus",
+			"org.gnome.baobab": "Analizador de Disco",
+			"obsidian": "Obsidian",
+			"libreoffice-writer": "Writer",
+			"libreoffice-impress": "Impress",
+			"libreoffice-calc": "Calc",
+			"libreoffice-draw": "Draw",
+			"libreoffice-math": "Math",
+			"libreoffice-startcenter": "LibreOffice",
 		},
     	"separate-outputs": true,
 		"max-length": 35

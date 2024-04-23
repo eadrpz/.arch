@@ -27,6 +27,7 @@
 	},
 	"hyprland/window": {
     	"format": "{initialClass}",
+		"on-click": "~/.config/rofi/bin/launcher",
 		"rewrite": {
 			"brave-browser": "Brave Browser",
 			"thunar": "Thunar",

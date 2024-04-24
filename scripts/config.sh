@@ -2,7 +2,7 @@
 
 res=$1
 
-if [[ "$res" = 1080 | "$res" = 768 ]] ; then
+if [[ "$res" = 1080 || "$res" = 768 ]] ; then
     if [ -d "$HOME/Documents/" ]; then
 
         echo "English..."

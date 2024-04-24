@@ -172,7 +172,6 @@ bind = $mainMod, M, exec, g4music
 # Rofi binds
 bind = $mainMod, A, exec, rofi -show rofi-sound -modi "rofi-sound:$HOME/.config/rofi/bin/audio-op" -theme $HOME/.config/rofi/config/standardtheme.rasi
 bind = $mainMod, R, exec, ~/.config/rofi/bin/runner
-bind = $mainMod, W, exec, ~/.config/rofi/bin/wifi
 bind = $mainMod, O, exec, ~/.config/rofi/bin/launcher
 bind = $mainMod, S, exec, ~/.config/rofi/bin/screenshot
 bind = $mainMod, P, exec, ~/.config/rofi/bin/monitor
@@ -237,8 +236,8 @@ bind = $mainMod, T, togglefloating,
 # Other window binds
 bind = $mainMod CTRL, A, pseudo, # dwindle
 bind = $mainMod, D, togglesplit, # dwindle
-bind = $mainMod, F, fullscreen, 1
-bind = $mainMod CTRL, F, fullscreen
+bind = $mainMod, W, fullscreen, 1
+bind = $mainMod, F, fullscreen
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l

@@ -48,13 +48,13 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 10x10
+    offset = 20x15
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
 
     # Maximum number of notification (0 means no limit)
-    notification_limit = 20
+    notification_limit = 15
 
     ### Progress bar ###
 
@@ -138,7 +138,7 @@
 
     ### Text ###
 
-    font = Ubuntu Nerd Font 7
+    font = SF Pro Display 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -246,7 +246,7 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/dmenu -theme "/home/eapaezjr/.config/rofi/config/standardtheme.rasi" -p dunst :
+    dmenu = /usr/bin/dmenu -theme "/home/pzeadrian/.config/rofi/config/standardtheme.rasi" -p dunst :
 
     # Browser for opening urls in context menu.
     browser = /usr/bin/xdg-open

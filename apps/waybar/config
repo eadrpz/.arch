@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"position": "top",
-	"margin": "5 10 5 10",
+	"margin": "8 8 4 8",
 	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window", "custom/archivo", "custom/ejecutar", "custom/portapapeles"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
@@ -113,7 +113,7 @@
 	"clock": {
 		"timezone": "America/Guayaquil",
 		"locale": "es_EC.UTF-8",
-        "format": "{:L%a %d %b %H:%M}",
+        "format": "{:L%a %d %b.  %H:%M}",
         "tooltip": false,
     },
 }

@@ -26,7 +26,7 @@
 
 * {
 	border: none;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-family: SF Pro Display;
 	font-size: 14px;
 	min-height: 16px;
@@ -34,7 +34,7 @@
 
 window#waybar {
 	background: rgba(24,24,24,0.85);
-	border-radius: 15px;
+	border-radius: 10px;
 	opacity: 1;
     animation: fadeIn 1s;
   	-webkit-transition: background .25s ease-in;
@@ -66,7 +66,7 @@ window#waybar.hidden {
 
 #custom-logo {
 	font-size: 18px;
-	margin: 5px 13px 5px 18px;
+	margin: 3px 13px 3px 18px;
 }
 
 #custom-finder {
@@ -79,7 +79,7 @@ window#waybar.hidden {
 
 #custom-archivo, #custom-ejecutar, #custom-portapapeles {
 	background: transparent;
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -89,7 +89,7 @@ window#waybar.hidden {
 
 #waybar.empty #custom-finder {
 	background: transparent;
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -99,7 +99,7 @@ window#waybar.hidden {
 }
 
 #window {
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -123,38 +123,41 @@ window#waybar.hidden {
 	transition: none;
 }
 
-#workspaces button {
-	margin: 5px 10px;
+#workspaces button label {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
 
-	padding: 5px;
-	border-radius: 10px;
+#workspaces button {
+	margin: 3px 7px;
+
+	padding: 0px 5px;
+	border-radius: 8px;
 
 	transition: none;
 	color: #f8f8f8;
 	background: rgba(161,181,108,0.25);
-	font-size: 16px;
 }
 
 #workspaces button.active {
 	color: #101010;
 	background: #a1b56c;
-	margin: 5px 10px;
 }
 
 #workspaces button.empty {
 	color: #f8f8f8;
 	background: transparent;
-	margin: 5px 10px;
 }
 
 #workspaces button.urgent {
 	color: #101010;
 	background: #ab4642;
-	margin: 5px 10px;
 }
 
 #submap {
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding:  0px 10px;
 	transition: none;
 	color: rgba(24,24,24, 1);
@@ -165,13 +168,13 @@ window#waybar.hidden {
 
 #tray {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 }
 
 #network {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -179,7 +182,7 @@ window#waybar.hidden {
 
 #backlight {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -187,7 +190,7 @@ window#waybar.hidden {
 
 #pulseaudio {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -195,7 +198,7 @@ window#waybar.hidden {
 
 #temperature {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -203,7 +206,7 @@ window#waybar.hidden {
 
 #battery {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	color: #f8f8f8;
 	transition: none;
@@ -217,7 +220,7 @@ window#waybar.hidden {
 
 #cpu {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -225,7 +228,7 @@ window#waybar.hidden {
 
 #memory {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -233,7 +236,7 @@ window#waybar.hidden {
 
 #language {
 	
-	margin: 5px 10px;
+	margin: 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -241,7 +244,7 @@ window#waybar.hidden {
 
 #clock {
 	
-	margin: 5px 15px 5px 10px;
+	margin: 3px 15px 3px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;

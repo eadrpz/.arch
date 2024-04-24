@@ -3,7 +3,7 @@
 @import "colors.rasi"
 
 configuration {
-    location:                       0;
+    location:                       2;
     fixed-num-lines:                false;
 }
 

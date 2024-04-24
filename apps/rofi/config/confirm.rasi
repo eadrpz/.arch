@@ -5,7 +5,7 @@ configuration {
     drun-display-format:            "{icon} {name}";
     disable-history:                false;
     click-to-exit: 		            true;
-    location:                       0;
+    location:                       2;
     dpi:                            0;
 }
 
@@ -26,7 +26,7 @@ window {
     width:                          266px;
     anchor:                         center;
     x-offset:                       0;
-    y-offset:                       0;
+    y-offset:                       10;
     dpi:                            0;
 }
 

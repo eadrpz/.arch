@@ -7,7 +7,8 @@
 	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
 
 	"custom/logo": {
-		"format": "󰣇"
+		"format": "󰣇",
+		"on-click": "~/.config/rofi/bin/powermenu"
 	},
 	"custom/finder": {
 		"format": "Finder",

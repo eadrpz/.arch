@@ -28,8 +28,8 @@
 	border: none;
 	border-radius: 10px;
 	font-family: SF Pro Display;
-	font-size: 14px;
-	min-height: 16px;
+	font-size: 11px;
+	min-height: 10px;
 }
 
 window#waybar {
@@ -66,7 +66,7 @@ window#waybar.hidden {
 
 #custom-logo {
 	font-size: 18px;
-	margin: 3px 13px 3px 18px;
+	margin: 0px 13px 0px 18px;
 }
 
 #custom-finder {
@@ -79,27 +79,27 @@ window#waybar.hidden {
 
 #custom-archivo, #custom-ejecutar, #custom-portapapeles {
 	background: transparent;
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 14px;
+	font-size: 11px;
 }
 
 #waybar.empty #custom-finder {
 	background: transparent;
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: bold;
 }
 
 #window {
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -124,14 +124,13 @@ window#waybar.hidden {
 }
 
 #workspaces button label {
-	font-size: 16px;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
 }
 
 #workspaces button {
-	margin: 3px 7px;
+	margin: 0px 7px;
 
 	padding: 0px 5px;
 	border-radius: 8px;
@@ -157,7 +156,7 @@ window#waybar.hidden {
 }
 
 #submap {
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding:  0px 10px;
 	transition: none;
 	color: rgba(24,24,24, 1);
@@ -168,13 +167,13 @@ window#waybar.hidden {
 
 #tray {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 }
 
 #network {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -182,7 +181,7 @@ window#waybar.hidden {
 
 #backlight {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -190,7 +189,7 @@ window#waybar.hidden {
 
 #pulseaudio {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -198,7 +197,7 @@ window#waybar.hidden {
 
 #temperature {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -206,7 +205,7 @@ window#waybar.hidden {
 
 #battery {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	color: #f8f8f8;
 	transition: none;
@@ -220,7 +219,7 @@ window#waybar.hidden {
 
 #cpu {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -228,7 +227,7 @@ window#waybar.hidden {
 
 #memory {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -236,7 +235,7 @@ window#waybar.hidden {
 
 #language {
 	
-	margin: 3px 10px;
+	margin: 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -244,7 +243,7 @@ window#waybar.hidden {
 
 #clock {
 	
-	margin: 3px 15px 3px 10px;
+	margin: 0px 15px 0px 10px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;

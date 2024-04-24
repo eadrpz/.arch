@@ -14,7 +14,7 @@ if [[ "$res" = 1080 || "$res" = 768 ]] ; then
 
         cp -rf $HOME/Documents/.arch/apps/* $HOME/.config/
         cp -f $HOME/Documents/.arch/apps/.bashrc $HOME/
-        cp -rf $HOME/Documents/.arch/wallpaper/* $HOME/.wallpaper/
+        cp -rf $HOME/Documents/.arch/wallpapers/.wallpaper.* $HOME/
 
         sh $HOME/Documents/.arch/scripts/resolution $res
 
@@ -29,7 +29,7 @@ if [[ "$res" = 1080 || "$res" = 768 ]] ; then
 
         cp -rf $HOME/Documentos/.arch/apps/* $HOME/.config/
         cp -f $HOME/Documentos/.arch/apps/.bashrc $HOME/
-        cp -rf $HOME/Documentos/.arch/wallpaper/* $HOME/.wallpaper/
+        cp -rf $HOME/Documentos/.arch/wallpapers/.wallpaper.* $HOME/
 
         sh $HOME/Documentos/.arch/scripts/resolution $res
 

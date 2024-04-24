@@ -26,15 +26,15 @@
 
 * {
 	border: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-family: SF Pro Display;
-	font-size: 11px;
-	min-height: 10px;
+	font-size: 14px;
+	min-height: 16px;
 }
 
 window#waybar {
 	background: rgba(24,24,24,0.85);
-	border-radius: 10px;
+	border-radius: 5px;
 	opacity: 1;
     animation: fadeIn 1s;
   	-webkit-transition: background .25s ease-in;
@@ -84,7 +84,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 11px;
+	font-size: 14px;
 }
 
 #waybar.empty #custom-finder {
@@ -94,7 +94,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: bold;
 }
 
@@ -130,9 +130,9 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-	margin: 0px 7px;
+	margin: 2px 7px;
 
-	padding: 0px 5px;
+	padding: 0px 3px;
 	border-radius: 8px;
 
 	transition: none;

@@ -31,7 +31,6 @@ if [[ "$res" = 1080 || "$res" = 768 ]] ; then
         cp -f $HOME/Documentos/.arch/apps/.bashrc $HOME/
         cp -rf $HOME/Documentos/.arch/wallpaper/* $HOME/.wallpaper/
 
-        read -p "RESOLUTION (1080 or 768): " res
         sh $HOME/Documentos/.arch/scripts/resolution $res
 
     else 

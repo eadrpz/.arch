@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"position": "top",
-	"margin": "8 8 4 8",
+	"margin": "6 6 3 6",
 	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window", "custom/archivo", "custom/ejecutar", "custom/portapapeles"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],

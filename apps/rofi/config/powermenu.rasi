@@ -4,7 +4,7 @@ configuration {
     drun-display-format:            "{icon}";
     disable-history:                false;
     click-to-exit: 		            true;
-    location:                       2;
+    location:                       0;
 }
 
 @import "font.rasi"
@@ -22,7 +22,7 @@ window {
     border:                  	    4px;
     border-color:                   @BDR;
     border-radius:                  15px;
-    width:                          421px;
+    width:                          353px;
     x-offset:                       0;
     y-offset:                       10;
 }
@@ -87,7 +87,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  15px;
-    padding:                        5px 20px 15px 18px;
+    padding:                        5px 10px;
     background-color:               transparent;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

@@ -67,10 +67,11 @@
 	    "format-icons": ["󰃞", "󰃠"]
 	},
 	"pulseaudio": {
+		"on-click": "amixer set Master toggle",
 		"tooltip": false,
 		"scroll-step": 5,
 		"format": "{icon}  {volume}%",
-		"format-muted": "󰖁",
+		"format-muted": "󰖁  Mute",
 		"format-icons": {
 			"default": ["󰕿", "󰖀", "󰕾"]
 		}

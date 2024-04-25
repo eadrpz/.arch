@@ -1,14 +1,14 @@
 * {
-    reg:        "SF Pro Display  11";
-    bold:       "SF Pro Display Bold 11";
-    ita:        "SF Pro Display Italic 11";
-    reg-big:    "SF Pro Display 15"; 
-    bold-big:   "SF Pro Display Bold 15";
-    ita-big:    "SF Pro Display Italic 15";
-    reg-sm:     "SF Pro Display 9";
-    bold-sm:    "SF Pro Display Bold 9";
-    ita-sm:     "SF Pro Display Italic 9";
-    reg-icon:   "SF Pro Display 30";
-    bold-icon:   "SF Pro Display Bold 30";
-    ita-icon:   "SF Pro Display Italic 30";
+    reg:        "Inter  11";
+    bold:       "Inter Bold 11";
+    ita:        "Inter Italic 11";
+    reg-big:    "Inter 15"; 
+    bold-big:   "Inter Bold 15";
+    ita-big:    "Inter Italic 15";
+    reg-sm:     "Inter 9";
+    bold-sm:    "Inter Bold 9";
+    ita-sm:     "Inter Italic 9";
+    reg-icon:   "Inter 30";
+    bold-icon:   "Inter Bold 30";
+    ita-icon:   "Inter Italic 30";
 }

@@ -138,7 +138,7 @@
 
     ### Text ###
 
-    font = SF Pro Display 9
+    font = Inter 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.

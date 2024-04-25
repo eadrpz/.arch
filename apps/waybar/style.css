@@ -27,7 +27,7 @@
 * {
 	border: none;
 	border-radius: 10px;
-	font-family: SF Pro Display;
+	font-family: Inter;
 	font-size: 14px;
 	min-height: 16px;
 }
@@ -104,7 +104,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #f8f8f8;
 
-	font-family: sans-serif, SF Pro Display;
+	font-family: sans-serif, Inter;
 	font-weight: bold;
 	
 }

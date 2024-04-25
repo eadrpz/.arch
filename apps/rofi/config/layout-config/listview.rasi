@@ -4,4 +4,6 @@
 listview {
     border:                         0px 0px 0px;
     background-color:               transparent;
+    dynamic:                        true;
+    layout:                         vertical;
 }

@@ -8,7 +8,7 @@
     reg-sm:     "Inter 9";
     bold-sm:    "Inter Bold 9";
     ita-sm:     "Inter Italic 9";
-    reg-icon:   "Inter 30";
-    bold-icon:   "Inter Bold 30";
-    ita-icon:   "Inter Italic 30";
+    reg-icon:   "Inter 25";
+    bold-icon:   "Inter Bold 25";
+    ita-icon:   "Inter Italic 25";
 }

@@ -22,7 +22,7 @@ window {
     border:                  	    4px;
     border-color:                   @BDR;
     border-radius:                  15px;
-    width:                          353px;
+    width:                          377px;
     x-offset:                       0;
     y-offset:                       10;
 }
@@ -87,7 +87,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  15px;
-    padding:                        5px 10px;
+    padding:                        5px 15px;
     background-color:               transparent;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

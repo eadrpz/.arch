@@ -28,7 +28,8 @@ shotnow () {
 }
 
 shotwindow () {
-	cd ${dir} && sleep 1 | grim -g "$(swaymsg -t get_tree | jq -j '.. | select(.type?) | select(.focused).rect | "\(.x),\(.y) \(.width)x\(.height)"')" $file
+	# cd ${dir} && sleep 1 | grim -g "$(swaymsg -t get_tree | jq -j '.. | select(.type?) | select(.focusd).rect | "\(.x),\(.y) \(.width)x\(.height)"')" $file
+	cd ${dir} && sleep 1 | hyprctl -j activewindow | jq -r '"\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"' | grim -g - $file
 }
 
 shotarea () {
@@ -46,9 +47,11 @@ options="$screen\n$window\n$area"
 chosen="$(echo -e "$options" |  $rofi_command -p 'Capturar Pantalla' -dmenu -selected-row 0)"
 case $chosen in
     $screen)
+		sleep 1
 		shotnow
         ;;
     $window)
+		sleep 1
 		shotwindow
         ;;
 	$area)

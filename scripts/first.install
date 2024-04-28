@@ -2,7 +2,7 @@
 
 echo "Let's install the packages..."
 
-sudo pacman -S fish dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland \
+sudo pacman -S fish dunst libnotify hyprpaper xdg-desktop-portal-hyprland \
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse \
 pipewire-jack wireplumber waybar alacritty git nautilus file-roller neovim \
 gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme \
@@ -31,9 +31,13 @@ read -p "en or es?: " lang
     esac
 
 cd
-paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal --noconfirm
+paru -S hyprland-git rofi-lbonn-wayland-git nautilus-open-any-terminal --noconfirm
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
+
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprbars
 
 settings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 

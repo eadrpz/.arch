@@ -34,7 +34,7 @@
 
 window#waybar {
 	background: rgba(24,24,24,0.85);
-	border-radius: 10px;
+	border-radius: 0px;
 	opacity: 1;
     animation: fadeIn 1s;
   	-webkit-transition: background .25s ease-in;

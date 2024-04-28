@@ -8,7 +8,7 @@ After you successfully installed Arch:
 
 - Install some basic packages.
 ```sh
-sudo pacman -S dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
+sudo pacman -S dunst libnotify hyprpaper xdg-desktop-portal-hyprland 
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse 
 pipewire-jack wireplumber waybar alacritty git nautilus file-roller neovim 
 gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme
@@ -30,7 +30,7 @@ makepkg -si
 
 - Install some AUR packages
 ```sh
-paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal
+paru -S hyprland-git rofi-lbonn-wayland-git nautilus-open-any-terminal
 ```
 
 - Enable some basic services.
@@ -42,8 +42,15 @@ sudo systemctl enable bluetooth
 
 - Run some basic commands.
 ```sh
+# Hyprland Stuff
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprbars
+
 # This replaces dmenu with rofi, useful for some scripts.
 sudo ln -s /usr/bin/rofi /usr/bin/dmenu
+
+# Alacritty & Nautilus Stuff
 settings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 ```
 

@@ -2,7 +2,7 @@ if [[  $1 == "1080"  ]]; then
     sed -i 's/font-size: 11px/font-size: 14px/g' $HOME/.config/waybar/style.css
     sed -i 's/min-height: 10px/min-height: 16px/g' $HOME/.config/waybar/style.css
     sed -i 's/size = 9.0/size = 11.0/g' $HOME/.config/alacritty/alacritty.toml
-    sed -i 's/monitor=eDP-1,1366x768@60,0x0,1/monitor=eDP-1,1920x1080@60,0x0,1/g' $HOME/.config/hypr/hyprland.conf
+    sed -i 's/monitor=eDP-1,1366x768@60,0x0,1/monitor=eDP-1,1920x1080@69,0x0,1/g' $HOME/.config/hypr/hyprland.conf
     sed -i 's/font = SF Pro Display 7/font = SF Pro Display 10/g' $HOME/.config/dunst/dunstrc
     # sed -i 's/10/13/g' $HOME/.config/rofi/config/font.rasi
     # sed -i 's/12/15/g' $HOME/.config/rofi/config/font.rasi
@@ -14,7 +14,7 @@ elif [[  $1 == "768" ]]; then
     sed -i 's/font-size: 14px/font-size: 11px/g' $HOME/.config/waybar/style.css
     sed -i 's/min-height: 16px/min-height: 10px/g' $HOME/.config/waybar/style.css
     sed -i 's/size = 11.0/size = 9.0/g' $HOME/.config/alacritty/alacritty.toml
-    sed -i 's/monitor=eDP-1,1920x1080@60,0x0,1/monitor=eDP-1,1366x768@60,0x0,1/g' $HOME/.config/hypr/hyprland.conf
+    sed -i 's/monitor=eDP-1,1920x1080@69,0x0,1/monitor=eDP-1,1366x768@60,0x0,1/g' $HOME/.config/hypr/hyprland.conf
     sed -i 's/font = SF Pro Display 10/font = Ubuntu Nerd Font 7/g' $HOME/.config/dunst/dunstrc
     # sed -i 's/13/10/g' $HOME/.config/rofi/config/font.rasi
     # sed -i 's/15/12/g' $HOME/.config/rofi/config/font.rasi

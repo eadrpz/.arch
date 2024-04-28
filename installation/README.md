@@ -10,7 +10,7 @@ After you successfully installed Arch:
 ```sh
 sudo pacman -S dunst libnotify hyprland hyprpaper xdg-desktop-portal-hyprland 
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse 
-pipewire-jack wireplumber waybar alacritty git thunar thunar-archive-plugin file-roller neovim 
+pipewire-jack wireplumber waybar alacritty git nautilus file-roller neovim 
 gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-keyring
 grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
@@ -29,7 +29,7 @@ makepkg -si
 
 - Install some AUR packages
 ```sh
-paru -S rofi-lbonn-wayland-git
+paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal
 ```
 
 - Enable some basic services.
@@ -43,6 +43,7 @@ sudo systemctl enable bluetooth
 ```sh
 # This replaces dmenu with rofi, useful for some scripts.
 sudo ln -s /usr/bin/rofi /usr/bin/dmenu
+settings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 ```
 
 - Change a config setting to enable power menu

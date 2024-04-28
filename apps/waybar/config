@@ -4,7 +4,7 @@
 	"margin": "6 6 3 6",
 	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window", "custom/archivo", "custom/ejecutar", "custom/portapapeles"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
+	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "network", "battery" , "backlight", "pulseaudio", "clock"],
 
 	"custom/logo": {
 		"format": "󰣇",
@@ -84,10 +84,21 @@
 		"icon-size": 15,
 		"spacing": 22
 	},
+	// "network": {
+	//	"tooltip": false,
+	//	"format-wifi": "󰤥   {essid} {ipaddr}",
+	//	"format-ethernet": " {ipaddr}"
 	"network": {
-		"tooltip": false,
-		"format-wifi": "󰤥   {essid} {ipaddr}",
-		"format-ethernet": " {ipaddr}"
+		"on-click": "~/.config/rofi/bin/wifi",
+		"format": "{ifname}",
+		"format-wifi": "󰤥 ",
+		"format-ethernet": " ",
+		"format-disconnected": "", //An empty format will hide the module.
+		"tooltip-format": "{ifname} via {gwaddr} 󰊗",
+		"tooltip-format-wifi": "{essid} - ({ipaddr}) - ({signalStrength}%)",
+		"tooltip-format-ethernet": "{ifname} - {ipaddr}/{cidr}",
+		"tooltip-format-disconnected": "Sin Conexión a Internet",
+		"max-length": 30
 	},
 	"battery": {
 		"interval": 30,

@@ -74,39 +74,47 @@ window#waybar.hidden {
 	font-size: 0;
 	margin: 0;
 	padding: 0;
-
-}
-
-#custom-archivo, #custom-ejecutar, #custom-portapapeles {
-	background: transparent;
-	margin: 0px 10px;
-	padding: 0px;
-	transition: none;
-	color: #f8f8f8;
-
-	font-size: 14px;
-}
-
-#waybar.empty #custom-finder {
-	background: transparent;
-	margin: 0px 10px;
-	padding: 0px;
-	transition: none;
-	color: #f8f8f8;
-
-	font-size: 14px;
 	font-weight: bold;
+
 }
+
+#custom-archivo, #custom-ejecutar, #custom-portapapeles, #custom-finder {
+	background: transparent;
+	margin: 0px 10px;
+	padding: 0px;
+	transition: none;
+	color: #f8f8f8;
+
+	font-size: 14px;
+}
+
+/* #waybar.empty #custom-finder { */
+/* 	background: transparent; */
+/* 	margin: 0px 10px; */
+/* 	padding: 0px; */
+/* 	transition: none; */
+/* 	color: #f8f8f8; */
+
+/* 	font-size: 14px; */
+/* 	font-weight: bold; */
+/* } */
+
+/* #window { */
+/* 	margin: 0px 10px; */
+/* 	padding: 0px; */
+/* 	transition: none; */
+/* 	color: #f8f8f8; */
+
+/* 	font-family: sans-serif, Inter; */
+/* 	font-weight: bold; */
+	
+/* } */
 
 #window {
-	margin: 0px 10px;
-	padding: 0px;
-	transition: none;
-	color: #f8f8f8;
-
-	font-family: sans-serif, Inter;
-	font-weight: bold;
-	
+	background: none;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #waybar.empty #window {

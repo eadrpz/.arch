@@ -27,7 +27,7 @@
 		"on-click": "~/.config/rofi/bin/clipboard"
 	},
 	"hyprland/window": {
-    	"format": "{initialClass}",
+    	"format": "",
 		"on-click": "~/.config/rofi/bin/launcher",
 		"rewrite": {
 			"brave-browser": "Brave Browser",

@@ -37,6 +37,7 @@ if [ -d "$HOME/Documents/" ]; then
     # 
     # Wallpaper
     cp $HOME/.wallpaper.* $HOME/Documents/.arch/wallpapers
+    cp $HOME/.lockpaper.* $HOME/Documents/.arch/wallpapers
 
     cd $HOME/Documents/.arch/
     git add -A
@@ -80,6 +81,7 @@ elif [ -d "$HOME/Documentos/" ]; then
     #
     # Wallpaper
     cp $HOME/.wallpaper.* $HOME/Documentos/.arch/wallpapers
+    cp $HOME/.lockpaper.* $HOME/Documentos/.arch/wallpapers
 
     cd $HOME/Documentos/.arch/
     git add -A

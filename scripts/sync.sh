@@ -30,15 +30,11 @@ if [ -d "$HOME/Documents/" ]; then
     cp -rf $HOME/.config/waybar/ $HOME/Documents/.arch/apps/
     #
     # Swaylock
-    cp -rf $HOME/.config/swaylock $HOME/Documents/.arch/apps/
+    # cp -rf $HOME/.config/swaylock $HOME/Documents/.arch/apps/
     #
     # Cava
     cp -rf $HOME/.config/cava $HOME/Documents/.arch/apps/
     # 
-    # Wallpaper
-    cp $HOME/.wallpaper.* $HOME/Documents/.arch/wallpapers
-    cp $HOME/.lockpaper.* $HOME/Documents/.arch/wallpapers
-
     cd $HOME/Documents/.arch/
     git add -A
     git commit -m "$1"
@@ -74,15 +70,11 @@ elif [ -d "$HOME/Documentos/" ]; then
     cp -rf $HOME/.config/waybar/ $HOME/Documentos/.arch/apps/
     #
     # Swaylock
-    cp -rf $HOME/.config/swaylock $HOME/Documentos/.arch/apps/
+    # cp -rf $HOME/.config/swaylock $HOME/Documentos/.arch/apps/
     #
     # Cava
     cp -rf $HOME/.config/cava $HOME/Documentos/.arch/apps/
     #
-    # Wallpaper
-    cp $HOME/.wallpaper.* $HOME/Documentos/.arch/wallpapers
-    cp $HOME/.lockpaper.* $HOME/Documentos/.arch/wallpapers
-
     cd $HOME/Documentos/.arch/
     git add -A
     git commit -m "$1"

@@ -31,6 +31,7 @@ read -p "en or es?: " lang
     esac
 
 cd
+paru -Sy
 paru -S hyprland-git rofi-lbonn-wayland-git nautilus-open-any-terminal --noconfirm
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
@@ -39,7 +40,7 @@ hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm enable hyprbars
 
-settings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 
 sudo systemctl enable bluetooth
 
@@ -51,4 +52,5 @@ sudo systemctl kill -s HUP systemd-logind
 echo "QT_STYLE_OVERRIDE=kvantum" | sudo tee --append /etc/environment
 echo "MOZ_ENABLE_WAYLAND=1" | sudo tee --append /etc/environment
 
-echo "Don't forget to execute ./fonts.sh and ./config.sh"
+echo "Don't forget to execute ./fonts.sh and ./config.sh scripts"
+echo "SERIOUSLY, EXECUTE THE FVCKING SCRIPTS..."

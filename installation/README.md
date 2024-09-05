@@ -16,7 +16,7 @@ bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-key
 grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost
 firefox udisks2 hyprlock hypridle libva-utils ttf-opensans noto-fonts-emoji gammastep
-socat jq
+socat jq hyprland
 ```
 
 - Install an AUR helper, [paru](https://github.com/Morganamilo/paru), for example.
@@ -30,7 +30,7 @@ makepkg -si
 
 - Install some AUR packages
 ```sh
-paru -S hyprland-git rofi-lbonn-wayland-git nautilus-open-any-terminal
+paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal
 ```
 
 - Enable some basic services.

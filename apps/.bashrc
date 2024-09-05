@@ -23,12 +23,6 @@ bind 'set completion-ignore-case on'
 bind 'set show-all-if-ambiguous on'
 # bind 'TAB:menu-complete'
 
-parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-PS1=" \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
-# PS1='$(basename "$PWD" |head -c1)\$ '
-
 if command -v nvim &>/dev/null; then
   export VISUAL='nvim'
   export EDITOR='nvim'
@@ -58,16 +52,4 @@ hide() (
   done
 )
 
-# Some other custom aliases I prefer to put right here
-alias cat='bat --style=plain --paging=never' # In debian derivatives is batcat, in other it's just bat
-alias ls='exa --group-directories-first'
-alias tree='exa -T'
-alias la='exa -la --group-directories-first'
-alias l='exa -l'
-alias vih='nvim .'
-alias svih='sudo nvim .'
-alias vi='nvim $1'
-alias svi='sudo nvim $1'
-alias git-user='git config --global user.name $1'
-alias git-mail='git config --global user.email $1'
-alias git-creds='git config --global credential.helper $1'
+source $HOME/.mybash

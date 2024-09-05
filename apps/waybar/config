@@ -4,10 +4,10 @@
 	"margin": "0 0 0 0",
 	"modules-left": [ "custom/logo", "custom/finder", "hyprland/window", "custom/archivo", "custom/ejecutar", "custom/portapapeles"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "network", "battery" , "backlight", "pulseaudio", "clock"],
+	"modules-right": [ "hyprland/submap", "hyprland/language", "tray", "battery" , "backlight", "pulseaudio", "clock"],
 
 	"custom/logo": {
-		"format": "󰣇",
+		"format": "",
 		"on-click": "~/.config/rofi/bin/powermenu"
 	},
 	"custom/finder": {
@@ -15,15 +15,15 @@
 		"on-click": "~/.config/rofi/bin/launcher"
 	},
 	"custom/archivo": {
-		"format": "Archivo",
+		"format": "Files",
 		"on-click": "~/.config/rofi/bin/filesearch"
 	},
 	"custom/ejecutar": {
-		"format": "Ejecutar",
+		"format": "Run",
 		"on-click": "~/.config/rofi/bin/runner"
 	},
 	"custom/portapapeles": {
-		"format": "Portapapeles",
+		"format": "Clipboard",
 		"on-click": "~/.config/rofi/bin/clipboard"
 	},
 	"hyprland/window": {
@@ -63,21 +63,21 @@
 	},
 	"backlight": {
 	    "device": "intel_backlight",
-	    "format": "{icon}   {percent}%",
+	    "format": "{icon}  {percent}%",
 	    "format-icons": ["󰃞", "󰃠"]
 	},
 	"pulseaudio": {
 		"on-click": "amixer set Master toggle",
 		"tooltip": false,
 		"scroll-step": 5,
-		"format": "{icon}  {volume}%",
-		"format-muted": "󰖁  Mute",
+		"format": "{icon} {volume}%",
+		"format-muted": "󰖁  Muted",
 		"format-icons": {
 			"default": ["󰕿", "󰖀", "󰕾"]
 		}
 	},
 	"temperature": {
-		"format": "{icon}  {temperatureC}°C",
+		"format": "{icon} {temperatureC}°C",
 		"format-icons": [""]
 	},
 	"tray": {
@@ -86,7 +86,7 @@
 	},
 	// "network": {
 	//	"tooltip": false,
-	//	"format-wifi": "󰤥   {essid} {ipaddr}",
+	//	"format-wifi": "󰤥  {essid} {ipaddr}",
 	//	"format-ethernet": " {ipaddr}"
 	"network": {
 		"on-click": "~/.config/rofi/bin/wifi",
@@ -106,8 +106,8 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon}  {capacity}%",
-		"format-charging": "󱐋  {capacity}%",
+		"format": "{icon} {capacity}%",
+		"format-charging": "󱐋 {capacity}%",
 		"format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"],
 	},
 	"cpu": {
@@ -125,8 +125,7 @@
 	},
 	"clock": {
 		"timezone": "America/Guayaquil",
-		"locale": "es_EC.UTF-8",
-        "format": "{:L%a %d %b.  %H:%M}",
+        "format": "{:L%a %b. %d  %H:%M}",
         "tooltip": false,
     },
 }

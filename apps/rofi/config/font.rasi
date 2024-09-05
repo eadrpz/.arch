@@ -1,14 +1,14 @@
 * {
-    reg:        "Inter  11";
-    bold:       "Inter Bold 11";
-    ita:        "Inter Italic 11";
-    reg-big:    "Inter 15"; 
-    bold-big:   "Inter Bold 15";
-    ita-big:    "Inter Italic 15";
-    reg-sm:     "Inter 9";
-    bold-sm:    "Inter Bold 9";
-    ita-sm:     "Inter Italic 9";
-    reg-icon:   "Inter 25";
-    bold-icon:   "Inter Bold 25";
-    ita-icon:   "Inter Italic 25";
+    reg:        "Open Sans  11";
+    bold:       "Open Sans Bold 11";
+    ita:        "Open Sans Italic 11";
+    reg-big:    "Open Sans 15"; 
+    bold-big:   "Open Sans Bold 15";
+    ita-big:    "Open Sans Italic 15";
+    reg-sm:     "Open Sans 9";
+    bold-sm:    "Open Sans Bold 9";
+    ita-sm:     "Open Sans Italic 9";
+    reg-icon:   "Open Sans 25";
+    bold-icon:   "Open Sans Bold 25";
+    ita-icon:   "Open Sans Italic 25";
 }

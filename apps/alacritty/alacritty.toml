@@ -56,19 +56,19 @@ offset.x = 1
 offset.y = 2
 
 [font.bold]
-family = "MonaspiceNe NF"
+family = "SauceCodePro NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "MonaspiceNe NF"
+family = "SauceCodePro NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "MonaspiceNe NF"
+family = "SauceCodePro NF"
 style = "Italic"
 
 [font.normal]
-family = "MonaspiceNe NF"
+family = "SauceCodePro NF"
 style = "Regular"
 
 [window]

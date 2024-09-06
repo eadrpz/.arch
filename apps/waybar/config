@@ -64,17 +64,17 @@
 	},
 	"backlight": {
 	    "device": "intel_backlight",
-	    "format": "{icon}  {percent}%",
+	    "format": "{percent}% {icon}",
 	    "format-icons": ["󰃞", "󰃠"]
 	},
 	"pulseaudio": {
 		"on-click": "amixer set Master toggle",
 		"tooltip": false,
 		"scroll-step": 5,
-		"format": "{icon} {volume}%",
-		"format-muted": "󰖁  Muted",
+		"format": "{volume}% {icon}",
+		"format-muted": "Muted ",
 		"format-icons": {
-			"default": ["󰕿", "󰖀", "󰕾"]
+			"default": ["", "", ""]
 		}
 	},
 	"temperature": {
@@ -107,9 +107,9 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon} {capacity}%",
-		"format-charging": "󱐋 {capacity}%",
-		"format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"],
+		"format": "{capacity}% {icon}",
+		"format-charging": "{capacity}% ",
+		"format-icons": ["", "", "", "", ""],
 	},
 	"cpu": {
 		"tooltip": false,

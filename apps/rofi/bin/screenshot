@@ -13,13 +13,13 @@ icon2="$HOME/.config/dunst/icons/timer.svg"
 # Buttons
 layout=`cat $HOME/.config/rofi/config/screenshot.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/'`
 if [[ "$layout" == "TRUE" ]]; then
-	screen="󰹑 "
-	window=" "
-	area="󰩬 "
+	screen="󰹑"
+	window=""
+	area="󰩬"
 else
-	screen="󰹑   Fullscreen"
-	window="   Window"
-	area="󰩬   Rectangle"
+	screen="Fullscreen"
+	window="Window"
+	area="Rectangle"
 fi
 
 # take shots

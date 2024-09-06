@@ -24,10 +24,10 @@ else
 		# suspend=""
 		# logout=""
   # Section 2
-		shutdown="󰐥"
-		reboot="󰜉"
-		suspend="󰤄"
-		logout="󰍃"
+		shutdown="\Uf0425 Shutdown"
+		reboot="\Uf0709 Reboot"
+		suspend="\Uf04b2 Suspend"
+		logout="\Uf0343 Logout"
 
 
 	else
@@ -37,10 +37,10 @@ else
 		# suspend=" Sleep"
 		# logout=" Logout"
   # Section 2
-		shutdown="󰐥"
-		reboot="󰜉"
-		suspend="󰤄"
-		logout="󰍃"
+		shutdown="\Uf0425 Shutdown"
+		reboot="\Uf0709 Reboot"
+		suspend="\Uf04b2 Suspend"
+		logout="\Uf0343 Logout"
 	fi
 	ddir="$HOME/.config/rofi/config"
 fi

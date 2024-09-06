@@ -17,7 +17,7 @@ configuration {
 
 
 window {
-    width:                          377px;
+    width:                          675px;
 }
 
 prompt {
@@ -80,7 +80,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  15px;
-    padding:                        5px 15px;
+    padding:                        0px 10px;
     background-color:               transparent;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

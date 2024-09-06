@@ -11,10 +11,10 @@ if [[ "$layout" == "TRUE" ]]; then
 	dual="󰊲 "
 	monitoronly="󱒃 "
 else
-	pconly="󰍹   PC Screen Only"
-	project="󰍺   Duplicate"
-	dual="󰊲   Extend"
-	monitoronly="󱒃   Second Screen Only"
+	pconly="PC Screen Only"
+	project="Duplicate"
+	dual="Extend"
+	monitoronly="Second Screen Only"
 fi
 
 # change xrandr settings

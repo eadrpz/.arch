@@ -1,14 +1,14 @@
 * {
-    reg:        "Open Sans  11";
-    bold:       "Open Sans Bold 11";
-    ita:        "Open Sans Italic 11";
-    reg-big:    "Open Sans 15"; 
-    bold-big:   "Open Sans Bold 15";
-    ita-big:    "Open Sans Italic 15";
-    reg-sm:     "Open Sans 9";
-    bold-sm:    "Open Sans Bold 9";
-    ita-sm:     "Open Sans Italic 9";
-    reg-icon:   "Open Sans 25";
-    bold-icon:   "Open Sans Bold 25";
-    ita-icon:   "Open Sans Italic 25";
+    reg:        "SauceCodePro NF  11";
+    bold:       "SauceCodePro NF Bold 11";
+    ita:        "SauceCodePro NF Italic 11";
+    reg-big:    "SauceCodePro NF 15"; 
+    bold-big:   "SauceCodePro NF Bold 15";
+    ita-big:    "SauceCodePro NF Italic 15";
+    reg-sm:     "SauceCodePro NF 9";
+    bold-sm:    "SauceCodePro NF Bold 9";
+    ita-sm:     "SauceCodePro NF Italic 9";
+    reg-icon:   "SauceCodePro NF 15";
+    bold-icon:   "SauceCodePro NF Bold 15";
+    ita-icon:   "SauceCodePro NF Italic 15";
 }

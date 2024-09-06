@@ -37,10 +37,10 @@ else
 		# suspend=" Sleep"
 		# logout=" Logout"
   # Section 2
-		shutdown="\Uf0425 Shutdown"
-		reboot="\Uf0709 Reboot"
-		suspend="\Uf04b2 Suspend"
-		logout="\Uf0343 Logout"
+		shutdown="Shutdown"
+		reboot="Reboot"
+		suspend="Suspend"
+		logout="Logout"
 	fi
 	ddir="$HOME/.config/rofi/config"
 fi
@@ -65,7 +65,7 @@ function rdialog () {
 
 # Display Help
 show_msg() {
-	rofi -theme "$ddir/askpass.rasi" -e "Opción inválida"
+	rofi -theme "$ddir/askpass.rasi" -e "Invalid Option"
 }
 
 # Variable passed to rofi

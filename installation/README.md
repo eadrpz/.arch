@@ -13,7 +13,7 @@ wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-puls
 pipewire-jack wireplumber waybar alacritty git nautilus file-roller neovim 
 gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-keyring
-grim slurp ranger exa bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
+grim slurp ranger eza bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost
 firefox udisks2 hyprlock hypridle libva-utils ttf-opensans noto-fonts-emoji gammastep
 socat jq hyprland hyprcursor hyprwayland-scanner hyprutils hyprlang

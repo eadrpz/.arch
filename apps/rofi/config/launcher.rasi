@@ -28,7 +28,7 @@ inputbar {
 }
 
 textbox-prompt-colon {
-    content:                        "Apps";
+    content:                        "Applications";
 }
 
 listview {

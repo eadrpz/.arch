@@ -33,7 +33,7 @@
 }
 
 window#waybar {
-	background: rgba(24,24,24,1);
+	background: rgba(24,24,24,0.9);
 	border-radius: 0px;
 	opacity: 1;
     animation: fadeIn 1s;
@@ -46,7 +46,8 @@ window#waybar {
 }
 
 window#waybar.empty {
-	background: rgba(24,24,24,0.5);
+	/* background: rgb(24,24,24); */
+	background: linear-gradient(360deg, rgba(24,24,24,1) 0%, rgba(24,24,24,0) 100%);
 	/* background: rgba(24,24,24,0.75); */
 	-webkit-transition: background .25s ease-out;
   	-moz-transition: background .25s ease-out;

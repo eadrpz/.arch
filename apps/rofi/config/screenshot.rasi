@@ -31,7 +31,7 @@ mainbox {
 textbox-prompt-colon {
     expand:                         true;
     content:                        "";
-    background-color:               @BG;
+    background-color:               transparent;
     text-color:                     @NBG;
     border-radius:                  15px;
     padding:                        10px;

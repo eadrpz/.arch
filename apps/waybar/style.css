@@ -28,8 +28,8 @@
 	border: none;
 	border-radius: 10px;
 	font-family: Open Sans;
-	font-size: 14px;
-	min-height: 16px;
+	font-size: 13px;
+	min-height: 15px;
 }
 
 window#waybar {
@@ -86,7 +86,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 14px;
+	font-size: 13px;
 }
 
 /* #waybar.empty #custom-finder { */

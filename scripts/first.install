@@ -36,9 +36,9 @@ paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
 
-hyprpm update
-hyprpm add https://github.com/hyprwm/hyprland-plugins
-hyprpm enable hyprbars
+# hyprpm update
+# hyprpm add https://github.com/hyprwm/hyprland-plugins
+# hyprpm enable hyprbars
 
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 

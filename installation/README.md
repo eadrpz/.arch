@@ -42,11 +42,6 @@ sudo systemctl enable bluetooth
 
 - Run some basic commands.
 ```sh
-# Hyprland Stuff
-hyprpm update
-hyprpm add https://github.com/hyprwm/hyprland-plugins
-hyprpm enable hyprbars
-
 # This replaces dmenu with rofi, useful for some scripts.
 sudo ln -s /usr/bin/rofi /usr/bin/dmenu
 

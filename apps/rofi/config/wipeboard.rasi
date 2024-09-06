@@ -19,7 +19,7 @@ configuration {
 }
 
 window {
-    width:                          294px;
+    width:                          319px;
     x-offset:                       0;
     y-offset:                       10;
 }

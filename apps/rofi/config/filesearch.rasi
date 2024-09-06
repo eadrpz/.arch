@@ -23,6 +23,10 @@ window {
     width:                          50%;
 }
 
+prompt {
+    font:                           @bold;
+}
+
 listview {
     lines:                          7;
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-prompt="Buscar en Internet"
+prompt="Search on the Web"
 
 # Output label string to rofi...
 search="$(dmenu -theme "$HOME/.config/rofi/config/singleline.rasi" -p "$prompt")"

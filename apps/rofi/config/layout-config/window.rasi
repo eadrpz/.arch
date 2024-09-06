@@ -6,11 +6,11 @@ window {
     fullscreen:                     "true";
     background-color:               @BG;
     text-color:                     @FG;
-    border:                         4px;
+    border:                         5px;
     border-color:                   @BDR;
     border-radius:                  15px;
     width:                          650px;
     anchor:                         center;
     x-offset:                       0;
-    y-offset:                       175;
+    y-offset:                       25px;
 }

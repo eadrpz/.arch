@@ -28,7 +28,7 @@ inputbar {
 }
 
 textbox-prompt-colon {
-    content:                        "Ejecutar";
+    content:                        "Run";
 }
 
 listview {

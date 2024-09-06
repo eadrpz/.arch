@@ -20,7 +20,7 @@ configuration {
 }
 
 window {
-    width:                          650px;
+    width:                          550px;
 }
 
 inputbar {
@@ -28,9 +28,9 @@ inputbar {
 }
 
 textbox-prompt-colon {
-    content:                        "Aplicaciones";
+    content:                        "Apps";
 }
 
 listview {
-    lines:			                7;
+    lines:			                5;
 }

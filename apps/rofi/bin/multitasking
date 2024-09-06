@@ -2,7 +2,7 @@
 rofi \
 	-show window \
 	-modi window \
-	-display-window "Multitarea" \
+	-display-window "Multitasking" \
 	-scroll-method 0 \
 	-terminal alacritty \
 	-theme "$HOME"/.config/rofi/config/multitasking.rasi \

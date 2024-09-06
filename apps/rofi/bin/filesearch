@@ -7,7 +7,7 @@
 # https://github.com/Chrysostomus/bspwm-scripts/blob/master/bin/finder
 # Requires: dmenu, xdg-utils
 # 
-prompt="Buscar Archivo"
+prompt="Search File"
 #
 # Regex \( ! -regex '.*/\..*' \) not show dot files.
 # -type f show only files (not folders)

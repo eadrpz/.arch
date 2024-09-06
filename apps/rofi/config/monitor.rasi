@@ -19,7 +19,7 @@ configuration {
 }
 
 window {
-    width:                          375px;
+    width:                          235px;
 }
 
 mainbox {

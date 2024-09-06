@@ -18,9 +18,9 @@ configuration {
 }
 
 window {
-    width:                          266px;
+    width:                          274px;
     x-offset:                       0;
-    y-offset:                       10;
+    y-offset:                       25px;
 }
 
 prompt {
@@ -30,6 +30,7 @@ prompt {
     padding:                        5px 15px;
     vertical-align:                 0.5;
     margin:                         0 10px 0 0;
+    font:                           @bold;
 }
 
 /* Textbox prompt color is not in use, but is here just in case it could be neccesary */

@@ -8,4 +8,5 @@ textbox-prompt-colon {
     text-color:                     @NBG;
     border-radius:                  15px;
     padding:                        10px;
+    font:                           @bold;
 }

@@ -12,13 +12,14 @@ configuration {
 @import "font.rasi"
 @import "colors.rasi"
 @import "layout-config/window.rasi"
+@import "layout-config/prompt.rasi"
 
 * {
     font:                           @reg;
 }
 
 window {
-    width:                          300px;
+    width:                          294px;
     x-offset:                       0;
     y-offset:                       10;
 }
@@ -70,7 +71,7 @@ element {
     text-color:                     @FG;
     orientation:                    horizontal;
     border-radius:                  15px;
-    padding:                        10px 10px;
+    padding:                        5px 10px;
     background-color:               transparent;
 }
 

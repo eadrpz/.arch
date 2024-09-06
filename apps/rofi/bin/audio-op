@@ -13,13 +13,13 @@ then
     if pactl set-default-sink "$device"
     then
         # if it worked, alert the user
-        dunstify -t 2000 -r 2 -u low "Seleccionado: $desc"
+        dunstify -t 2000 -r 2 -u low "Selected: $desc"
     else
         # didn't work, critically alert the user
-        dunstify -t 2000 -r 2 -u critical "Error al cambiar la fuente"
+        dunstify -t 2000 -r 2 -u critical "Error changing Audio Output"
     fi
 else
-    echo -en "\x00prompt\x1fSeleccione la fuente de audio\n"
+    echo -en "\x00prompt\x1fSelect Audio Output\n"
     # Get the list of outputs based on the description, which is what makes sense to a human
     # and is what we want to show in the menu
     for x in $(pactl list sinks | grep -ie "description:"|cut -d: -f2|sort)

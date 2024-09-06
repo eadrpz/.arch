@@ -27,8 +27,8 @@
 * {
 	border: none;
 	border-radius: 10px;
-	font-family: Open Sans;
-	font-size: 13px;
+	font-family: SauceCodePro NF;
+	font-size: 14px;
 	min-height: 15px;
 }
 
@@ -81,12 +81,12 @@ window#waybar.hidden {
 
 #custom-archivo, #custom-ejecutar, #custom-portapapeles, #custom-finder {
 	background: transparent;
-	margin: 0px 10px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 13px;
+	font-size: 14px;
 }
 
 /* #waybar.empty #custom-finder { */
@@ -127,7 +127,7 @@ window#waybar.hidden {
 
 #workspaces {
 	
-	margin: 0px 10px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 }
@@ -165,7 +165,7 @@ window#waybar.hidden {
 }
 
 #submap {
-	margin: 5px 9px;
+	margin: 5px 11px;
 	padding:  0px 8px;
 	transition: none;
 	color: rgba(24,24,24, 1);
@@ -176,13 +176,13 @@ window#waybar.hidden {
 
 #tray {
 	
-	margin: 0px 10px;
+	margin: 0px 11px;
 	padding: 0px;
 }
 
 #network {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -190,7 +190,7 @@ window#waybar.hidden {
 
 #backlight {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -198,7 +198,7 @@ window#waybar.hidden {
 
 #pulseaudio {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -206,7 +206,7 @@ window#waybar.hidden {
 
 #temperature {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -214,7 +214,7 @@ window#waybar.hidden {
 
 #battery {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	color: #f8f8f8;
 	transition: none;
@@ -228,7 +228,7 @@ window#waybar.hidden {
 
 #cpu {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -236,7 +236,7 @@ window#waybar.hidden {
 
 #memory {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -244,7 +244,7 @@ window#waybar.hidden {
 
 #language {
 	
-	margin: 0px 9px;
+	margin: 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;
@@ -252,7 +252,7 @@ window#waybar.hidden {
 
 #clock {
 	
-	margin: 0px 15px 0px 9px;
+	margin: 0px 15px 0px 11px;
 	padding: 0px;
 	transition: none;
 	color: #f8f8f8;

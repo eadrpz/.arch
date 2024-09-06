@@ -7,6 +7,6 @@ textbox-prompt-colon {
     background-color:               @ON;
     text-color:                     @NBG;
     border-radius:                  15px;
-    padding:                        10px;
+    padding:                        5px;
     font:                           @bold;
 }

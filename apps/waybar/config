@@ -82,7 +82,7 @@
 		"format-icons": [""]
 	},
 	"tray": {
-		"icon-size": 15,
+		"icon-size": 14,
 		"spacing": 22
 	},
 	// "network": {

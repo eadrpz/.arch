@@ -16,7 +16,7 @@ bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-key
 grim slurp ranger eza bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils 
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost
 firefox udisks2 hyprlock hypridle libva-utils ttf-opensans noto-fonts-emoji gammastep
-socat jq hyprland hyprcursor hyprwayland-scanner hyprutils hyprlang
+socat jq hyprland hyprcursor hyprwayland-scanner hyprutils hyprlang bash-completion
 ```
 
 - Install an AUR helper, [paru](https://github.com/Morganamilo/paru), for example.

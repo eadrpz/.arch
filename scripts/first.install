@@ -4,13 +4,13 @@ echo "Let's install the packages..."
 
 sudo pacman -S fish dunst libnotify hyprpaper xdg-desktop-portal-hyprland \
 wayland xorg-xwayland cliphist wl-clipboard pipewire pipewire-alsa pipewire-pulse \
-pipewire-jack wireplumber waybar alacritty git nautilus file-roller neovim \
+pipewire-jack wireplumber waybar alacritty git nemo file-roller nemo-fileroller neovim \
 gvfs-smb ffmpegthumbnailer tumbler xdg-desktop-portal-gtk materia-gtk-theme kvantum-theme-materia papirus-icon-theme \
 bluez bluez-utils blueman network-manager-applet btop neofetch mpv imv gnome-keyring \
 grim slurp ranger eza bat pavucontrol nodejs yarn inxi alsa-tools alsa-utils \
 kvantum gtk-engines gtk-engine-murrine lxappearance brightnessctl polkit-gnome xorg-xhost \
 udisks2 hyprlock hypridle libva-utils ttf-opensans noto-fonts-emoji gammastep \
-socat jq hyprland hyprcursor hyprwayland-scanner hyprutils hyprlang --noconfirm
+socat jq hyprland hyprcursor hyprwayland-scanner hyprutils hyprlang bash-completion --noconfirm
 
 read -p "en or es?: " lang
      case $lang in
@@ -32,7 +32,7 @@ read -p "en or es?: " lang
 
 cd
 paru -Sy
-paru -S rofi-lbonn-wayland-git nautilus-open-any-terminal
+paru -S rofi-lbonn-wayland-git
 systemctl enable --user wireplumber
 systemctl enable --user pipewire
 

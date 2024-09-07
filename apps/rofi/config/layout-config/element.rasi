@@ -5,7 +5,7 @@ element {
     border-radius:                  10px;
     text-color:                     @FG;
     background-color:               transparent;
-    margin:                         0px 10px;
+    margin:                         0px 5px;
     padding:                        5px;
 }
 

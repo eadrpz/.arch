@@ -17,7 +17,7 @@ configuration {
 
 
 window {
-    width:                          471px;
+    width:                          465px;
 }
 
 prompt {

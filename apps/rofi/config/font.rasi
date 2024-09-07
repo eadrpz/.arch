@@ -1,14 +1,14 @@
 * {
-    reg:        "SauceCodePro NF  11";
-    bold:       "SauceCodePro NF Bold 11";
-    ita:        "SauceCodePro NF Italic 11";
-    reg-big:    "SauceCodePro NF 15"; 
-    bold-big:   "SauceCodePro NF Bold 15";
-    ita-big:    "SauceCodePro NF Italic 15";
-    reg-sm:     "SauceCodePro NF 9";
-    bold-sm:    "SauceCodePro NF Bold 9";
-    ita-sm:     "SauceCodePro NF Italic 9";
-    reg-icon:   "SauceCodePro NF 15";
-    bold-icon:   "SauceCodePro NF Bold 15";
-    ita-icon:   "SauceCodePro NF Italic 15";
+    reg:        "SauceCodePro NF  10";
+    bold:       "SauceCodePro NF Bold 10";
+    ita:        "SauceCodePro NF Italic 10";
+    reg-big:    "SauceCodePro NF 13"; 
+    bold-big:   "SauceCodePro NF Bold 13";
+    ita-big:    "SauceCodePro NF Italic 13";
+    reg-sm:     "SauceCodePro NF 8";
+    bold-sm:    "SauceCodePro NF Bold 8";
+    ita-sm:     "SauceCodePro NF Italic 8";
+    reg-icon:   "SauceCodePro NF 13";
+    bold-icon:   "SauceCodePro NF Bold 13";
+    ita-icon:   "SauceCodePro NF Italic 13";
 }

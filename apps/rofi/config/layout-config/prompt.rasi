@@ -5,6 +5,8 @@ prompt {
     background-color:               @ON;
     text-color:                     @NBG;
     border-radius:                  15px;
-    padding:                        10px 20px;
+    padding:                        0px 10px;
     font:                           @bold;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
 }

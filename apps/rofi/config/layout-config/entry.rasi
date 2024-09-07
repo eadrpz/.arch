@@ -2,7 +2,7 @@
 @import "../colors.rasi"
 
 entry {
-    padding:                        10px 10px;
+    padding:                        10px;
     text-color:                     @FG;
     background-color:               transparent;
     font:                           @reg;

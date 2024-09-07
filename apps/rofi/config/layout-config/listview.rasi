@@ -6,4 +6,8 @@ listview {
     background-color:               transparent;
     dynamic:                        true;
     layout:                         vertical;
+    padding:                        5px 0px;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+
 }

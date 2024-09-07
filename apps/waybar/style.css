@@ -47,7 +47,7 @@ window#waybar {
 
 window#waybar.empty {
 	/* background: rgb(24,24,24); */
-	background: linear-gradient(360deg, rgba(24,24,24,1) 0%, rgba(24,24,24,0) 100%);
+	background: linear-gradient(360deg, rgba(24,24,24,1) 25%, rgba(24,24,24,0) 100%);
 	/* background: rgba(24,24,24,0.75); */
 	-webkit-transition: background .25s ease-out;
   	-moz-transition: background .25s ease-out;

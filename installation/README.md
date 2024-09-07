@@ -48,7 +48,15 @@ sudo ln -s /usr/bin/rofi /usr/bin/dmenu
 # Alacritty & Nemo Stuff
 gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
 gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+```
 
+# Some default applications
+```
+xdg-mime default imv.desktop image/jpeg
+xdg-mime default imv.desktop image/jpg
+xdg-mime default imv.desktop image/png
+
+xdg-mime default nemo.desktop inode/directory
 ```
 
 - Change a config setting to enable power menu

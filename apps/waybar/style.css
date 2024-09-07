@@ -144,7 +144,7 @@ window#waybar.hidden {
 	margin: 5px 5px;
 
 	padding: 2px 4px;
-	border-radius: 8px;
+	border-radius: 10px;
 
 	transition: none;
 	color: #f8f8f8;

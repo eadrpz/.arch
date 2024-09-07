@@ -40,7 +40,8 @@ systemctl enable --user pipewire
 # hyprpm add https://github.com/hyprwm/hyprland-plugins
 # hyprpm enable hyprbars
 
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
 sudo systemctl enable bluetooth
 

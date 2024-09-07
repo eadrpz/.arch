@@ -4,6 +4,6 @@
 mainbox {
     background-color:               @BG;
     children:                       [ inputbar, listview ];
-    padding:                        5px;
+    padding:                        0px;
     orientation:                    vertical;
 }

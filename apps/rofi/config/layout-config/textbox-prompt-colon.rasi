@@ -6,7 +6,7 @@ textbox-prompt-colon {
     content:                        "Texto Personalizable";
     background-color:               @ON;
     text-color:                     @NBG;
-    border-radius:                  15px;
+    border-radius:                  10px;
     padding:                        10px;
     font:                           @bold;
 }

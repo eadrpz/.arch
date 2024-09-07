@@ -4,8 +4,8 @@
 prompt {
     background-color:               @ON;
     text-color:                     @NBG;
-    border-radius:                  15px;
-    padding:                        0px 10px;
+    border-radius:                  10px;
+    padding:                        10px;
     font:                           @bold;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

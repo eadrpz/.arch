@@ -17,13 +17,13 @@ configuration {
 
 
 window {
-    width:                          579px;
+    width:                          471px;
 }
 
 prompt {
     background-color:               @ON;
     text-color:                     @BG;
-    border-radius:                  15px;
+    border-radius:                  10px;
     padding:                        5px 15px;
     vertical-align:                 0.5;
     margin:                         0 10px 0 0;
@@ -42,7 +42,7 @@ textbox-prompt-colon {
     vertical-align:                 0.5;
     border:                         0px;
     border-color:                   @BDR;
-    border-radius:                  15px;
+    border-radius:                  10px;
 }
 
 inputbar {
@@ -71,7 +71,7 @@ mainbox {
     background-color:               @BG;
     children:                       [ listview ];
     spacing:                        0px;
-    padding:                        8px;
+    padding:                        5px;
     orientation:                    horizontal;
     align-items:                    center;
 }
@@ -79,7 +79,7 @@ mainbox {
 element {
     text-color:                     @FG;
     orientation:                    horizontal;
-    border-radius:                  15px;
+    border-radius:                  10px;
     padding:                        0px 10px;
     background-color:               transparent;
     horizontal-align:               0.5;
@@ -98,7 +98,7 @@ element-icon {
 element-text {
     background-color: 		        inherit;
     text-color:       		        inherit;
-    font:			                @reg-icon;
+    font:			                @bold;
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
@@ -112,7 +112,7 @@ element selected {
     background-color:               @ON;
     text-color:                     @NBG;
     border:                  	    0px 0px 0px 0px;
-    border-radius:                  15px;
+    border-radius:                  10px;
     border-color:                   @BDR;
 }
 

@@ -50,7 +50,7 @@ element-icon {
     text-color:       		        inherit;
     horizontal-align:               0.5;
     vertical-align:                 0;
-    size:                           50px;
+    size:                           64px;
     border:                         0px;
 }
 

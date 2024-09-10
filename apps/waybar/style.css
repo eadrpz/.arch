@@ -28,8 +28,8 @@
 	border: none;
 	border-radius: 10px;
 	font-family: Inter, SauceCodePro NF;
-	font-size: 14px;
-	min-height: 15px;
+	font-size: 13px;
+	min-height: 16px;
 }
 
 window#waybar {
@@ -67,7 +67,7 @@ window#waybar.hidden {
 }
 
 #custom-logo {
-	font-size: 17px;
+	font-size: 16px;
 	margin: 0px 15px 0px 18px;
 	color: #f8f8f8;
 }
@@ -88,7 +88,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #f8f8f8;
 
-	font-size: 14px;
+	font-size: 13px;
 }
 
 /* #waybar.empty #custom-finder { */
